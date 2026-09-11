@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programação do Evento</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo_technomonte2026.png" alt="TechnoMonte 2026" style="max-height: 50px;">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="programacao.html">Programação</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://forms.gle/SEU_LINK_AQUI" target="_blank">Inscrição</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container py-5">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h1>Programação</h1>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-striped table-bordered align-middle">
+        <thead class="table-dark">
+          <tr>
+            <th>Tipo</th>
+            <th>Título</th>
+            <th>Ministrante</th>
+            <th>Área de TI</th>
+            <th>Modalidade</th>
+            <th>Descrição</th>
+            <th>Público-Alvo</th>
+            <th>Vagas</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-cursos">
+          <!-- Preenchido via JavaScript -->
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script>
+    fetch('cursos.json')
+      .then(response => response.json())
+      .then(cursos => {
+        const tabela = document.getElementById('tabela-cursos');
+        cursos.forEach(curso => {
+          const linha = document.createElement('tr');
+          linha.innerHTML = `
+            <td>${curso.tipo}</td>
+            <td>${curso.titulo}</td>
+            <td>${curso.ministrante}</td>
+            <td>${curso.area_ti}</td>
+            <td>${curso.modalidade}</td>
+            <td>${curso.descricao}</td>
+            <td>${curso.publico_alvo}</td>
+            <td>${curso.vagas}</td>
+          `;
+          tabela.appendChild(linha);
+        });
+      })
+      .catch(erro => {
+        console.error('Erro ao carregar cursos.json:', erro);
+        document.getElementById('tabela-cursos').innerHTML =
+          '<tr><td colspan="8" class="text-center text-danger">Erro ao carregar a programação.</td></tr>';
+      });
+  </script>
+
+</body>
+</html>

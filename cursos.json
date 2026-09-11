@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "tipo": "Minicurso",
+    "titulo": "Introdução ao Desenvolvimento Web com FastAPI e Python",
+    "ministrante": "Ana Clara Alves",
+    "area_ti": "Desenvolvimento de Software / Backend",
+    "modalidade": "Híbrido",
+    "descricao": "Aprenda a construir APIs rápidas, escaláveis e documentadas automaticamente utilizando o framework FastAPI em Python.",
+    "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes",
+    "vagas": 40
+  },
+  {
+    "id": 2,
+    "tipo": "Palestra",
+    "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
+    "ministrante": "Carlos Eduardo Souza",
+    "area_ti": "Infraestrutura / Cloud Computing",
+    "modalidade": "Online",
+    "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
+    "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
+    "vagas": 150
+  }
+]
