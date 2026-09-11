@@ -20,5 +20,49 @@
     "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
     "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
     "vagas": 150
+  },
+  {
+    "id": 3,
+    "tipo": "Palestra",
+    "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
+    "ministrante": "Carlos Eduardo Souza",
+    "area_ti": "Infraestrutura / Cloud Computing",
+    "modalidade": "Online",
+    "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
+    "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
+    "vagas": 150
+  },
+  {
+    "id": 4,
+    "tipo": "Palestra",
+    "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
+    "ministrante": "Carlos Eduardo Souza",
+    "area_ti": "Infraestrutura / Cloud Computing",
+    "modalidade": "Online",
+    "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
+    "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
+    "vagas": 150
+  },
+  {
+    "id": 5,
+    "tipo": "Palestra",
+    "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
+    "ministrante": "Carlos Eduardo Souza",
+    "area_ti": "Infraestrutura / Cloud Computing",
+    "modalidade": "Online",
+    "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
+    "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
+    "vagas": 150
+  },
+  {
+    "id": 6,
+    "tipo": "Palestra",
+    "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
+    "ministrante": "Carlos Eduardo Souza",
+    "area_ti": "Infraestrutura / Cloud Computing",
+    "modalidade": "Online",
+    "descricao": "Discussão sobre padrões de projeto, resiliência de sistemas e estratégias de mensageria utilizando brokers como MQTT e Kafka.",
+    "publico_alvo": "Profissionais da área, arquitetos de software e estudantes avançados",
+    "vagas": 150
   }
 ]
