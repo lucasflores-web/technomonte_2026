@@ -2,6 +2,7 @@
   {
     "id": 1,
     "tipo": "Minicurso",
+    "data": "22/10 as 8 e 40",
     "titulo": "Introdução ao Desenvolvimento Web com FastAPI e Python",
     "ministrante": "Ana Clara Alves",
     "area_ti": "Desenvolvimento de Software / Backend",
@@ -14,6 +15,7 @@
   {
     "id": 2,
     "tipo": "Palestra",
+    "data": "22/10 - 8:40",
     "titulo": "Arquitetura de Microsserviços em Ambientes de Alta Disponibilidade",
     "ministrante": "Carlos Eduardo Souza",
     "area_ti": "Infraestrutura / Cloud Computing",

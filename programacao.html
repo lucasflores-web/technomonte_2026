@@ -44,6 +44,7 @@
         <thead class="table-dark">
           <tr>
             <th>Tipo</th>
+            
             <th>Título</th>
             <th>Ministrante</th>
             <th>Área de TI</th>
@@ -51,6 +52,7 @@
             <th>Descrição</th>
             <th>Público-Alvo</th>
             <th>Vagas</th>
+            <th>Data</th>
             <th class="text-center">Inscrição</th>
           </tr>
         </thead>
@@ -99,7 +101,8 @@
             <td>${curso.modalidade}</td>
             <td>${curso.descricao}</td>
             <td>${curso.publico_alvo}</td>
-            <td>${curso.vagas}</td>
+            <td>${curso.vagas}</td>            
+            <td>${curso.data}</td>
             <td class="text-center">
               ${curso.link_inscricao
                 ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
