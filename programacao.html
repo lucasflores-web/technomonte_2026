@@ -51,6 +51,7 @@
             <th>Descrição</th>
             <th>Público-Alvo</th>
             <th>Vagas</th>
+            <th class="text-center">Inscrição</th>
           </tr>
         </thead>
         <tbody id="tabela-cursos">
@@ -99,6 +100,11 @@
             <td>${curso.descricao}</td>
             <td>${curso.publico_alvo}</td>
             <td>${curso.vagas}</td>
+            <td class="text-center">
+              ${curso.link_inscricao
+                ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
+                : `<span class="badge text-bg-secondary">Em breve</span>`}
+            </td>
           `;
           tabela.appendChild(linha);
         });
@@ -106,7 +112,7 @@
       .catch(erro => {
         console.error('Erro ao carregar cursos.json:', erro);
         document.getElementById('tabela-cursos').innerHTML =
-          '<tr><td colspan="8" class="text-center text-danger">Erro ao carregar a programação.</td></tr>';
+          '<tr><td colspan="9" class="text-center text-danger">Erro ao carregar a programação.</td></tr>';
       });
   </script>
 
