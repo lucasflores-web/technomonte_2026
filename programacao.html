@@ -6,6 +6,59 @@
   <title>Programação do Evento</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/logo_technomonte2026.png">
+  <style>
+    /* ===== Tabela responsiva: vira "cards" no celular ===== */
+    @media (max-width: 767.98px) {
+      .table-responsive-cards table,
+      .table-responsive-cards thead,
+      .table-responsive-cards tbody,
+      .table-responsive-cards th,
+      .table-responsive-cards td,
+      .table-responsive-cards tr {
+        display: block;
+      }
+
+      .table-responsive-cards thead {
+        display: none; /* esconde o cabeçalho da tabela no mobile */
+      }
+
+      .table-responsive-cards tbody tr {
+        margin-bottom: 1.25rem;
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        overflow: hidden;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      }
+
+      .table-responsive-cards tbody td {
+        text-align: left;
+        padding: 0.6rem 0.9rem;
+        border: none;
+        border-bottom: 1px solid #f0f0f0;
+        white-space: normal; /* garante que o texto quebre a linha, sem cortar */
+        word-break: break-word;
+      }
+
+      .table-responsive-cards tbody td:last-child {
+        border-bottom: none;
+      }
+
+      /* Mostra o nome da coluna antes do valor, usando data-label */
+      .table-responsive-cards tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: 600;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        color: #6c757d;
+        margin-bottom: 0.2rem;
+      }
+
+      .table-responsive-cards tbody td.text-center {
+        text-align: left;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -40,13 +93,13 @@
       <h1>Programação</h1>
     </div>
 
-    <div class="table-responsive">
+    <div class="table-responsive table-responsive-cards">
       <table class="table table-striped table-bordered align-middle">
         <thead class="table-dark">
           <tr>
-            <th>Tipo</th>
             
             <th>Título</th>
+            <th>Tipo</th>
             <th>Ministrante/ Palestrante</th>
             <th>Área de TI</th>
             <th>Modalidade</th>
@@ -95,16 +148,16 @@
         cursos.forEach(curso => {
           const linha = document.createElement('tr');
           linha.innerHTML = `
-            <td>${curso.tipo}</td>
-            <td>${curso.titulo}</td>
-            <td>${curso.ministrante}</td>
-            <td>${curso.area_ti}</td>
-            <td>${curso.modalidade}</td>
-            <td>${curso.descricao}</td>
-            <td>${curso.publico_alvo}</td>
-            <td>${curso.vagas}</td>            
-            <td>${curso.data}</td>
-            <td class="text-center">
+            <td data-label="Título">${curso.titulo}</td>
+            <td data-label="Tipo">${curso.tipo}</td>
+            <td data-label="Ministrante/ Palestrante">${curso.ministrante}</td>
+            <td data-label="Área de TI">${curso.area_ti}</td>
+            <td data-label="Modalidade">${curso.modalidade}</td>
+            <td data-label="Descrição">${curso.descricao}</td>
+            <td data-label="Público-Alvo">${curso.publico_alvo}</td>
+            <td data-label="Vagas">${curso.vagas}</td>
+            <td data-label="Data">${curso.data}</td>
+            <td data-label="Inscrição" class="text-center">
               ${curso.link_inscricao
                 ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
                 : `<span class="badge text-bg-secondary">Em breve</span>`}
