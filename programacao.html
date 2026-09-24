@@ -58,6 +58,11 @@
         text-align: left;
       }
     }
+
+    #tabela-cursos td[data-label="Data"] div {
+      white-space: nowrap;
+      line-height: 1.5;
+    }
   </style>
 </head>
 <body>
@@ -103,10 +108,10 @@
             <th>Ministrante/ Palestrante</th>
             <th>Área de TI</th>
             <th>Modalidade</th>
-            <th>Descrição</th>
+            <!--<th>Descrição</th> -->
             <th>Público-Alvo</th>
             <th>Vagas</th>
-            <th>Data</th>
+            <th>Data/Horário/Local</th>
             <th class="text-center">Inscrição (a partir do 12/10)</th>
           </tr>
         </thead>
@@ -153,10 +158,13 @@
             <td data-label="Ministrante/ Palestrante">${curso.ministrante}</td>
             <td data-label="Área de TI">${curso.area_ti}</td>
             <td data-label="Modalidade">${curso.modalidade}</td>
-            <td data-label="Descrição">${curso.descricao}</td>
             <td data-label="Público-Alvo">${curso.publico_alvo}</td>
             <td data-label="Vagas">${curso.vagas}</td>
-            <td data-label="Data">${curso.data}</td>
+            <td data-label="Data">
+              <div>Data: ${curso.data}</div>
+              <div>Hora: ${curso.horario}</div>
+              <div>Local: ${curso.local}</div>
+            </td>
             <td data-label="Inscrição" class="text-center">
               ${curso.link_inscricao
                 ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
