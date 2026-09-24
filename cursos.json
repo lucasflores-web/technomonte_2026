@@ -146,7 +146,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -161,7 +161,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -176,7 +176,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -251,7 +251,7 @@
     "modalidade": "Presencial",
     "descricao": "Muitos estudantes entram no mercado esperando encontrar equipes ágeis consolidadas, arquiteturas imaculadas e requisitos perfeitamente mapeados. A realidade da maioria das organizações, no entanto, é o extremo oposto: demandas urgentes, ausência de cultura tecnológica e a necessidade de construir soluções robustas onde nem sequer existe um setor de TI formal. Bruno Lacerra e Leonardo Cardoso vão abordar de forma transparente e crítica o contraste entre o ambiente acadêmico e o ecossistema corporativo real. O objetivo é desmistificar o início de carreira, apresentar as enormes oportunidades de crescimento para desenvolvedores pioneiros em empresas tradicionais e debater boas práticas para desenvolvedores de software e hardware durante seu período de estágio, que foram utilizadas para adaptação ao novo ecossistema do mercado de trabalho em empresas que não são específicas da área de TI, mas que possuem uma grande demanda em seus recursos/tecnologia e que são muito presentes na região. Fornecendo ferramentas conceituais e comportamentais para lidar com requisitos ambíguos, gestão de expectativas e entrega pragmática de software.",
     "publico_alvo": "Todos os estudantes à partir do 3º Período",
-    "vagas": "30",
+    "vagas": "80",
     "link_inscricao": ""
   },
   {
@@ -266,7 +266,7 @@
     "modalidade": "Presencial",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "80",
     "link_inscricao": ""
   },
   {
@@ -281,7 +281,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -296,7 +296,7 @@
     "modalidade": "Presencial",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "37",
     "link_inscricao": ""
   },
   {
@@ -311,7 +311,7 @@
     "modalidade": "Presencial",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "37",
     "link_inscricao": ""
   },
   {
@@ -326,7 +326,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -386,7 +386,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -395,7 +395,7 @@
     "data": "21/10 e 22/10",
     "horario": "07:00 às 09:00 e 07:00 às 09:00",
     "titulo": "Minicurso de Modelagem 3D - O Básico sobre Blender",
-    "local": "Vila Digital - 1a217",
+    "local": "Vila Digital - 1A217",
     "ministrante": "Luiza Gonçalves Andrade Paiva",
     "area_ti": "Modelagem 3D",
     "modalidade": "Presencial",
@@ -446,7 +446,7 @@
     "modalidade": "Presencial",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "37",
     "link_inscricao": ""
   },
   {
@@ -461,7 +461,7 @@
     "modalidade": "Online",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -471,12 +471,12 @@
     "horario": "19:30 às 21:30",
     "titulo": "A Anatomia de um Jogo Digital: Estruturando Ideias com GDD",
     "local": "Videoconferência no Teams",
-    "ministrante": "Felippe Fernandes Silva (UEM)",
-    "area_ti": "SEM AREA DE TI",
+    "ministrante": "Felippe Fernandes Silva (Universidade Estadual de Maringá - UEM)",
+    "area_ti": "Jogos Digitais",
     "modalidade": "Online",
-    "descricao": "SEM DESCRIÇÃO",
+    "descricao": "A palestra apresentará como transformar ideias soltas em projetos estruturados e prontos para produção. Ao desconstruir a anatomia de um jogo, explorando suas mecânicas, narrativa, estética e tecnologia, o aluno aprende a documentar e comunicar sua visão criativa de forma profissional através do Game Design Document (GDD)",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
