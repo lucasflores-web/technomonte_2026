@@ -595,7 +595,22 @@
     "area_ti": "Modelagem de Domínio.",
     "modalidade": "Presencial",
     "descricao": "Esta proposta preliminar apresenta um workshop prático focado na extração e representação de modelos mentais para o desenvolvimento de software. A atividade adota uma metodologia ativa baseada em roleplay, na qual os participantes assumem o papel de consultores técnicos encarregados de investigar stakeholders — interpretados pelos instrutores — em um estudo de caso centrado em um aplicativo de delivery. Utilizando técnicas de entrevista contextual e a abordagem dos 5 Porquês (Root Cause Analysis), os participantes exercitam a escuta ativa para desvendar regras de negócio complexas e não explícitas, como decisões logísticas de agrupamento de pedidos, restrições financeiras em fretes promocionais e ajustes operacionais dinâmicos ligados a condições climáticas. A partir dos requisitos elicitados, os grupos aplicam o conceito de cognição externa trabalhando de forma colaborativa com papel A4 para mapear e desenhar os fluxos lógicos e entidades do sistema. Ao final, os modelos analógicos produzidos são confrontados com um diagrama formal do domínio, promovendo um debate crítico sobre a importância de alinhar a lógica do negócio e a visão do usuário antes da etapa de programação.",
-    "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados. Não exige conhecimento prévio de computação em nuvem nem de programação.",
+    "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
+    "vagas": "60",
+    "link_inscricao": ""
+  },
+  {
+    "id": 40,
+    "tipo": "TESTE",
+    "data": "TESTE",
+    "horario": "TESTE ",
+    "titulo": "TESTE",
+    "local": "TESTE",
+    "ministrante": "TESTE",
+    "area_ti": "TESTE.",
+    "modalidade": "TESTE",
+    "descricao": "TESTE",
+    "publico_alvo": "TESTE",
     "vagas": "60",
     "link_inscricao": ""
   }
