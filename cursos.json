@@ -598,20 +598,5 @@
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "60",
     "link_inscricao": ""
-  },
-  {
-    "id": 40,
-    "tipo": "TESTE",
-    "data": "TESTE",
-    "horario": "TESTE ",
-    "titulo": "TESTE",
-    "local": "TESTE",
-    "ministrante": "TESTE",
-    "area_ti": "TESTE.",
-    "modalidade": "TESTE",
-    "descricao": "TESTE",
-    "publico_alvo": "TESTE",
-    "vagas": "60",
-    "link_inscricao": ""
   }
 ]
