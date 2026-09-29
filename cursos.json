@@ -26,7 +26,7 @@
     "modalidade": "Presencial",
     "descricao": "Primeiros passos com LaTeX no Overleaf.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -41,7 +41,7 @@
     "modalidade": "Presencial",
     "descricao": "A AWS Certified Cloud Practitioner (CLF-C02) é a porta de entrada mais reconhecida do mercado para quem quer trabalhar com computação em nuvem, e é acessível a quem nunca programou. O que trava a maioria dos estudantes, porém, não é o conteúdo técnico: na maioria das vezes é não saber como o exame funciona, ter receio do inglês e não conhecer as oportunidades que dão o exame gratuitamente ou com desconto, achando que precisa pagar do próprio bolso. Este minicurso trabalha as duas frentes. Na parte técnica, cobre os quatro domínios cobrados no exame: conceitos de nuvem, segurança e conformidade, tecnologias e serviços AWS, e cobrança, precificação e suporte. Na parte estratégica, apresenta o caminho completo até a aprovação: como montar um plano de estudos com material oficial gratuito, como conseguir o voucher do exame sem custo, como agendar na plataforma da Pearson VUE, o que esperar do dia da prova e quais técnicas usar para resolver as questões. Em sala, cada participante cria e verifica sua conta no AWS Builder Center, o que libera 12 meses de acesso ao AWS Skill Builder Premium e inicia o percurso rumo ao voucher gratuito de exame do programa Student Rewards, lançado pela AWS em agosto de 2026 para estudantes universitários. Ao final, cada participante sai com o ambiente de estudo configurado, um plano individual e uma data-alvo definida para a prova. O encerramento traz ainda um panorama da trilha de certificações AWS e uma introdução à AWS Certified AI Practitioner (AIF-C01), o passo seguinte natural para quem se interessa por inteligência artificial. Ministrado por profissional certificado em AWS Cloud Practitioner, AWS AI Practitioner, AWS Solutions Architect Associate e AWS Developer Associate, graduado no Programa AWS re/Start, AWS Technical Accredited Partner e mentor técnico voluntário na Escola da Nuvem.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados. Não exige conhecimento prévio de computação em nuvem nem de programação.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -56,7 +56,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Git, proporcionando aos participantes uma base sólida para versionamento de projetos e colaboração em equipe. Durante 2/3 horas, serão abordados conceitos essenciais como repositórios, commits, branches, GitHub, merge, Pull Requests e fluxo de trabalho colaborativo, sempre priorizando uma abordagem prática e aplicada ao desenvolvimento de software.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -71,7 +71,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso apresenta o Obsidian como uma ferramenta para organização de estudos, anotações e conhecimentos. Os participantes aprenderão os conceitos básicos da ferramenta e construirão, durante a atividade, uma estrutura simples para organizar disciplinas, conteúdos e anotações. Serão apresentados recursos como Markdown, links entre notas, backlinks, tags, propriedades e busca, sempre relacionados a situações práticas de estudo.",
     "publico_alvo": "Estudantes de cursos de graduação, especialmente alunos interessados em melhorar a organização dos estudos e das anotações. Não é necessário conhecimento prévio de Obsidian.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -86,7 +86,7 @@
     "modalidade": "Presencial",
     "descricao": "EM BREVE...",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "80",
     "link_inscricao": ""
   },
   {
@@ -101,7 +101,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos relacionados ao desenvolvimento de APIs e aplicações Backend, proporcionando aos participantes uma visão prática de como sistemas se comunicam e processam dados. Ao longo do curso, serão abordados conceitos como HTTP, REST, JSON, métodos e status de requisições, além da demonstração de uma API utilizando Spring Boot, integração com banco de dados e testes utilizando o Postman.",
     "publico_alvo": "Todos os estudantes à partir do segundo período",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -116,7 +116,7 @@
     "modalidade": "Presencial",
     "descricao": "A proposta do minicurso é apresentar aos estudantes como utilizar o LinkedIn de forma estratégica para construir uma presença profissional desde a universidade. Serão abordadas a criação e organização do perfil, divulgação de experiências e projetos, construção de networking e as oportunidades no mercado de trabalho.",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -174,9 +174,9 @@
     "ministrante": "Gabriel Martins de Lima Ferreira",
     "area_ti": "Linguagem Técnica na área",
     "modalidade": "Presencial",
-    "descricao": "Ensinar palavras chaves e expressões da linguagem inglesa que estão presente na área tecnológica, cibernética e para se comunicarem com outros grupos.",
+    "descricao": "O minicurso tem como objetivo ensinar palavras chaves e expressões da linguagem inglesa que estão presente na área tecnológica, cibernética e para se comunicarem com outros grupos.",
     "publico_alvo": "Estudantes de computação, principalmente 1º e 2º Períodos",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -185,13 +185,13 @@
     "data": "20/10",
     "horario": "09:00 às 12:00",
     "titulo": "Docker Compose na Prática - TURMA 1",
-    "local": "1B209",
+    "local": "1B208",
     "ministrante": "Wallace Candido Maia Sousa",
     "area_ti": "Desenvolvimento de Software",
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Docker, introduzindo os participantes ao uso de containers no desenvolvimento e execução de aplicações. Durante o curso, serão abordados conceitos como imagens, containers, Dockerfile, volumes, redes e Docker Compose, além da criação de um ambiente completo com aplicação e banco de dados.",
     "publico_alvo": "Estudantes de computação à partir do 2º Período",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -206,7 +206,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso oferece uma formação completa e descomplicada em impressão 3D (tecnologias FDM e Resina MSLA), focando na compreensão real do hardware peça por peça através de diagramas técnicos explodidos. Os participantes aprenderão a selecionar materiais adequados para cada aplicação mecânica ou externa, aplicar regras de design para manufatura, dominar softwares de fatiamento (Cura e Lychee Slicer) e acompanhar demonstrações práticas de calibração, biossegurança e resolução de problemas na bancada do laboratório.",
     "publico_alvo": "Estudantes de graduação e pós-graduação, entusiastas de robótica, prototipagem rápida e desenvolvimento de produtos físicos.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -221,7 +221,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos relacionados ao desenvolvimento de APIs e aplicações Backend, proporcionando aos participantes uma visão prática de como sistemas se comunicam e processam dados. Ao longo do curso, serão abordados conceitos como HTTP, REST, JSON, métodos e status de requisições, além da demonstração de uma API utilizando Spring Boot, integração com banco de dados e testes utilizando o Postman.",
     "publico_alvo": "Todos os estudantes à partir do 2º Período",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -326,7 +326,7 @@
     "modalidade": "Presencial",
     "descricao": "A proposta do minicurso é apresentar aos estudantes como utilizar o LinkedIn de forma estratégica para construir uma presença profissional desde a universidade. Serão abordadas a criação e organização do perfil, divulgação de experiências e projetos, construção de networking e as oportunidades no mercado de trabalho.",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -341,7 +341,7 @@
     "modalidade": "Presencial",
     "descricao": "O objetivo do mini-curso é o de introduzir o básico da linguagem python, abordando os principais tópicos como identação, importação de bibliotecas, e configuração de ambiente, tendo como meta fornecer uma base para se dar os primeiros passos de forma sólida.",
     "publico_alvo": "Todos os estudantes, com foco nos iniciantes do curso, de preferência, até o 4º Período",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -356,7 +356,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Docker, introduzindo os participantes ao uso de containers no desenvolvimento e execução de aplicações. Durante o curso, serão abordados conceitos como imagens, containers, Dockerfile, volumes, redes e Docker Compose, além da criação de um ambiente completo com aplicação e banco de dados.",
     "publico_alvo": "Estudantes de computação à partir do 2º Período",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -401,7 +401,7 @@
     "modalidade": "Presencial",
     "descricao": "Nesse minicurso ensinaremos manutenção básica de computadores, seus componentes, falhas de software e hardware mais comuns, como prevenir falhas (manutenção preventiva) e como arrumar falhas ocorridas.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -416,7 +416,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso oferece uma formação completa e descomplicada em impressão 3D (tecnologias FDM e Resina MSLA), focando na compreensão real do hardware peça por peça através de diagramas técnicos explodidos. Os participantes aprenderão a selecionar materiais adequados para cada aplicação mecânica ou externa, aplicar regras de design para manufatura, dominar softwares de fatiamento (Cura e Lychee Slicer) e acompanhar demonstrações práticas de calibração, biossegurança e resolução de problemas na bancada do laboratório.",
     "publico_alvo": "Estudantes de graduação e pós-graduação, entusiastas de robótica, prototipagem rápida e desenvolvimento de produtos físicos.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -476,7 +476,7 @@
     "modalidade": "Presencial",
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "Ilimitado",
     "link_inscricao": ""
   },
   {
@@ -491,7 +491,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como proposta desenvolver habilidades de comunicação oral, expressão corporal e apresentação em público, explorando técnicas de oratória, linguagem corporal, uso da voz, organização do discurso e estratégias de persuasão e organização em geral. A metodologia será constituída  na combinação entre momentos teróricos, exemplos, interação e atividades práticas. Envolvendo recursos matérias e audiovisuais. Permitindo que os participantes coloquem em prática as técnicas apresentadas ao longo do curso.",
     "publico_alvo": "Todo o público",
-    "vagas": "30",
+    "vagas": "80",
     "link_inscricao": ""
   },
   {
@@ -506,7 +506,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Git, proporcionando aos participantes uma base sólida para versionamento de projetos e colaboração em equipe. Durante 2/3 horas, serão abordados conceitos essenciais como repositórios, commits, branches, GitHub, merge, Pull Requests e fluxo de trabalho colaborativo, sempre priorizando uma abordagem prática e aplicada ao desenvolvimento de software.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -521,7 +521,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar o LeetCode como uma ferramenta para prática de programação e desenvolvimento do raciocínio lógico. Durante a atividade, os participantes conhecerão a plataforma, aprenderão a interpretar problemas de programação e serão apresentados a uma estratégia básica para analisar, desenvolver, testar e melhorar suas soluções. A atividade terá caráter prático, com resolução guiada de problemas adequados ao nível dos participantes.",
     "publico_alvo": "Estudantes de computação e especialmente desenvolvedores iniciantes com conjhecimentos básicos de programação.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -536,7 +536,7 @@
     "modalidade": "Presencial",
     "descricao": "O minicurso tem como objetivo apresentar os conceitos essenciais para quem deseja iniciar no uso de sistemas Linux. Com uma abordagem introdutória e prática, serão trabalhados temas como utilização do terminal, navegação pelo sistema de arquivos, manipulação de arquivos e diretórios, permissões, usuários, processos, gerenciamento de pacotes e comandos básicos de rede. O foco será nas distribuições Debian e Ubuntu, buscando proporcionar aos participantes uma base para utilizar o Linux com maior autonomia em seus estudos e atividades.",
     "publico_alvo": "Estudantes de computação e especialmente desenvolvedores iniciantes com conjhecimentos básicos de programação.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -551,7 +551,7 @@
     "modalidade": "Presencial",
     "descricao": "Nesse minicurso ensinaremos manutenção básica de computadores, seus componentes, falhas de software e hardware mais comuns, como prevenir falhas (manutenção preventiva) e como arrumar falhas ocorridas.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -566,7 +566,7 @@
     "modalidade": "Presencial",
     "descricao": "A AWS Certified Cloud Practitioner (CLF-C02) é a porta de entrada mais reconhecida do mercado para quem quer trabalhar com computação em nuvem, e é acessível a quem nunca programou. O que trava a maioria dos estudantes, porém, não é o conteúdo técnico: na maioria das vezes é não saber como o exame funciona, ter receio do inglês e não conhecer as oportunidades que dão o exame gratuitamente ou com desconto, achando que precisa pagar do próprio bolso. Este minicurso trabalha as duas frentes. Na parte técnica, cobre os quatro domínios cobrados no exame: conceitos de nuvem, segurança e conformidade, tecnologias e serviços AWS, e cobrança, precificação e suporte. Na parte estratégica, apresenta o caminho completo até a aprovação: como montar um plano de estudos com material oficial gratuito, como conseguir o voucher do exame sem custo, como agendar na plataforma da Pearson VUE, o que esperar do dia da prova e quais técnicas usar para resolver as questões. Em sala, cada participante cria e verifica sua conta no AWS Builder Center, o que libera 12 meses de acesso ao AWS Skill Builder Premium e inicia o percurso rumo ao voucher gratuito de exame do programa Student Rewards, lançado pela AWS em agosto de 2026 para estudantes universitários. Ao final, cada participante sai com o ambiente de estudo configurado, um plano individual e uma data-alvo definida para a prova. O encerramento traz ainda um panorama da trilha de certificações AWS e uma introdução à AWS Certified AI Practitioner (AIF-C01), o passo seguinte natural para quem se interessa por inteligência artificial. Ministrado por profissional certificado em AWS Cloud Practitioner, AWS AI Practitioner, AWS Solutions Architect Associate e AWS Developer Associate, graduado no Programa AWS re/Start, AWS Technical Accredited Partner e mentor técnico voluntário na Escola da Nuvem.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados. Não exige conhecimento prévio de computação em nuvem nem de programação.",
-    "vagas": "30",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -581,7 +581,7 @@
     "modalidade": "Presencial",
     "descricao": "Esta proposta preliminar apresenta um workshop prático focado na extração e representação de modelos mentais para o desenvolvimento de software. A atividade adota uma metodologia ativa baseada em roleplay, na qual os participantes assumem o papel de consultores técnicos encarregados de investigar stakeholders — interpretados pelos instrutores — em um estudo de caso centrado em um aplicativo de delivery. Utilizando técnicas de entrevista contextual e a abordagem dos 5 Porquês (Root Cause Analysis), os participantes exercitam a escuta ativa para desvendar regras de negócio complexas e não explícitas, como decisões logísticas de agrupamento de pedidos, restrições financeiras em fretes promocionais e ajustes operacionais dinâmicos ligados a condições climáticas. A partir dos requisitos elicitados, os grupos aplicam o conceito de cognição externa trabalhando de forma colaborativa com papel A4 para mapear e desenhar os fluxos lógicos e entidades do sistema. Ao final, os modelos analógicos produzidos são confrontados com um diagrama formal do domínio, promovendo um debate crítico sobre a importância de alinhar a lógica do negócio e a visão do usuário antes da etapa de programação.",
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "60",
+    "vagas": "80",
     "link_inscricao": ""
   },
   {
@@ -611,7 +611,7 @@
     "modalidade": "Presencial",
     "descricao": "O workshop abordará o controle de versões com Git pela linha de comando e a integração com o GitHub por meio do GitHub CLI. Serão apresentados os conceitos básicos, o registro e a consulta de alterações, a criação e integração de branches, a resolução de conflitos e a reversão de commits. Também serão demonstradas a autenticação, a criação e publicação de repositórios e a abertura de pull requests pelo terminal",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "50",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -626,7 +626,7 @@
     "modalidade": "Presencial",
     "descricao": "O workshop tem como objetivo apresentar, de forma prática, o fluxo de colaboração em projetos utilizando GitHub. Serão abordadas desde a criação de uma demanda por meio de issues até a implementação de alterações, abertura de pull requests, revisão por outros colaboradores e integração das contribuições ao projeto. As operações locais serão realizadas utilizando GitHub Desktop e o gerenciamento das contribuições será feito pelo GitHub no navegador",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "50",
+    "vagas": "35",
     "link_inscricao": ""
   },
   {
@@ -641,7 +641,7 @@
     "modalidade": "Presencial",
     "descricao": "Workshop prático sobre qualidade de software com foco em análise estática de código, utilizando o SonarQube como ferramenta central. Combina fundamentação teórica (normas e modelos de qualidade, boas práticas de codificação) com demonstração prática da ferramenta e uma dinâmica em grupos, na qual os participantes revisam manualmente um trecho de código com defeitos inseridos e depois comparam seus achados com o relatório gerado pelo SonarQube, evidenciando os limites da revisão manual frente à análise automatizada",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
-    "vagas": "50",
+    "vagas": "35",
     "link_inscricao": ""
   }
 ]
