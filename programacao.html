@@ -6,10 +6,20 @@
   <title>Programação</title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/logo_technomonte2026.png">
+  <style>
+    .overflow-auto { scrollbar-width: none; }
+    .overflow-auto::-webkit-scrollbar { display: none; }
+    .grade { display: grid; border: 1px solid #333; border-right: 0; border-bottom: 0; font-size: 12px; }
+    .grade > div { background: #fff; padding: 2px 4px; border-right: 1px solid #333; border-bottom: 1px solid #333; }
+    .grade .topo { background: #050A2E; color: #fff; font-weight: bold; text-align: center; }
+    .grade .evento { cursor: pointer; overflow: hidden; }
+    .grade .Minicurso { background: #d9c9f0; }
+    .grade .Palestra  { background: #cfe2ff; }
+    .grade .Workshop  { background: #ffe8b3; }
+  </style>
 </head>
 <body>
 
-  <!-- Cabeçalho rgb(5, 12, 94) -->
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 4, 54);">
     <div class="container">
       <a class="navbar-brand" href="index.html">
@@ -20,95 +30,143 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="programacao.html">Programação</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="inscricoes.html">Inscrições (a partir de 12/10)</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="programacao.html">Programação</a></li>
+          <li class="nav-item"><a class="nav-link" href="inscricoes.html">Inscrições (a partir de 12/10)</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <div class="container py-5">
-
-    <div class="d-flex justify-content-between align-items-center mb-4">
-      <h1>Programação do Evento</h1>
-    </div>
-
-    
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <h3>Legenda</h3>
-        <img src="programacao/legenda.jpeg" 
-        alt="Legenda acerca da Programação Technomonte 2026" 
-        class="hero-logo img-fluid" 
-        style="max-height: 100px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <h3>Programação Geral</h3>
-        <img src="programacao/programacao_geral.jpeg" 
-        alt="Programação Technomonte 2026" 
-        class="hero-logo img-fluid" 
-        style="max-height: 700px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
-
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <img src="programacao/programacao_segunda.jpeg" 
-        alt="Programação Technomonte 2026 Segunda-Feira" 
-        class="hero-logo img-fluid" 
-        style="max-height: 500px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
-
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <img src="programacao/programacao_terca.jpeg" 
-        alt="Programação Technomonte 2026 Terça-Feira" 
-        class="hero-logo img-fluid" 
-        style="max-height: 500px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <img src="programacao/programacao_quarta.jpeg" 
-        alt="Programação Technomonte 2026 Quarta-Feira" 
-        class="hero-logo img-fluid" 
-        style="max-height: 500px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; text-align: left; padding: 0 20px;">
-        <img src="programacao/programacao_quinta.jpeg" 
-        alt="Programação Technomonte 2026 Quinta-Feira" 
-        class="hero-logo img-fluid" 
-        style="max-height: 500px; width: auto; height: auto; margin-bottom: 20px;">
-    </div>
-
+  <div class="container py-4">
+    <h1 class="h3 mb-4 text-center">Grade de Horários</h1>
+    <ul class="nav nav-tabs flex-nowrap overflow-auto" id="abas"></ul>
+    <div class="tab-content pt-3" id="paineis"></div>
   </div>
-  <footer class=" text-center py-4 "style="background-color: rgb(0, 4, 54);">
-      <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-auto">
-            <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
-              <img src="img/ufu.png" alt="UFU" class="img-fluid" style="max-height: 120px;">
-            </a>
-          </div>
-          <div class="col-auto">
-            <a href="https://www.facom.ufu.br" target="_blank" rel="noopener noreferrer">
-              <img src="img/facom.png" alt="FACOM" class="img-fluid" style="max-height: 100px;">
-            </a>
-          </div>
-          <div class="col-auto">
-            <a href="https://petsimc.facom.ufu.br/" target="_blank" rel="noopener noreferrer">
-              <img src="img/petsimc.png" alt="PET" class="img-fluid" style="max-height: 140px;">
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
 
+  <footer class="text-center py-4" style="background-color: rgb(0, 4, 54);">
+    <a href="https://www.ufu.br" target="_blank"><img src="img/ufu.png" alt="UFU" style="max-height: 120px;"></a>
+    <a href="https://www.facom.ufu.br" target="_blank"><img src="img/facom.png" alt="FACOM" style="max-height: 100px;"></a>
+    <a href="https://petsimc.facom.ufu.br/" target="_blank"><img src="img/petsimc.png" alt="PET" style="max-height: 140px;"></a>
+  </footer>
+
+  <div class="modal fade" id="modal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mTitulo"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body" id="mCorpo"></div>
+        <div class="modal-footer" id="mRodape"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const PDF = 'programacao/Programacao_TechnoMonte2026.pdf';
+    const IMG = 'programacao/programacao_geral.jpeg';
+    const INICIO = 7 * 60, FIM = 22 * 60, SLOT = 30;
+    const N = (FIM - INICIO) / SLOT;
+    let CURSOS = [];
+
+    // "13:00 às 15:00" -> [780, 900]
+    const minutos = h => h.match(/\d+:\d+/g).map(t => { const [a, b] = t.split(':'); return a * 60 + +b; });
+
+    // separa "19/10 e 21/10" em ocorrências por dia e define a coluna de cada uma
+    function porDia(cursos) {
+      const dias = {};
+      cursos.forEach(c => {
+        const datas = c.data.split(' e ');
+        c.horario.split(' e ').forEach((h, i) => {
+          const [ini, fim] = minutos(h);
+          (dias[(datas[i] || datas[0]).trim()] ??= []).push({ ...c, horario: h, ini, fim });
+        });
+      });
+      Object.values(dias).forEach(lista => {
+        lista.sort((a, b) => a.ini - b.ini);
+        const fins = [];
+        lista.forEach(e => {
+          e.col = fins.findIndex(f => f <= e.ini);
+          if (e.col < 0) e.col = fins.push(0) - 1;
+          fins[e.col] = e.fim;
+        });
+      });
+      return dias;
+    }
+
+    // monta uma grade com um ou mais dias lado a lado
+    function grade(nomes, dias) {
+      const larg = nomes.map(d => Math.max(...dias[d].map(e => e.col + 1)));
+      const total = larg.reduce((a, b) => a + b, 0);
+      const min = nomes.length > 1 ? 0 : 112;
+
+      let h = `<div class="grade" style="grid-template-columns:56px repeat(${total},minmax(${min}px,1fr));grid-template-rows:26px repeat(${N},35px)">
+                 <div class="topo"></div>`;
+
+      for (let s = 0; s < N; s++) {
+        const m = INICIO + s * SLOT;
+        h += `<div style="grid-column:1;grid-row:${s + 2};text-align:right;font-weight:bold">${String(m / 60 | 0).padStart(2, '0')}:${String(m % 60).padStart(2, '0')}</div>`;
+      }
+
+      let col = 2;
+      nomes.forEach((dia, i) => {
+        h += `<div class="topo" style="grid-column:${col}/span ${larg[i]};grid-row:1">${dia}</div>`;
+        dias[dia].forEach(e => {
+          const r1 = 2 + (e.ini - INICIO) / SLOT, r2 = 2 + (e.fim - INICIO) / SLOT;
+          h += `<div class="evento ${e.tipo}" onclick="abrir(${e.id})" style="grid-column:${col + e.col};grid-row:${r1}/${r2}">
+                  <b>${e.titulo}</b><br>${e.tipo} · ${e.modalidade} · ${e.local}</div>`;
+        });
+        col += larg[i];
+      });
+      return h + '</div>';
+    }
+
+    function render(cursos) {
+      CURSOS = cursos;
+      const dias = porDia(cursos);
+      const nomes = Object.keys(dias).sort();
+
+      // aba geral: botão do PDF + imagem (celular) + calendário (computador)
+      const geral = `
+        <div class="text-center mb-3">
+          <a href="${PDF}" target="_blank" class="btn btn-primary">Abrir PDF da programação</a>
+          <img src="${IMG}" alt="Programação geral" class="img-fluid d-lg-none mt-3">
+        </div>
+        <div class="d-none d-lg-block overflow-auto">${grade(nomes, dias)}</div>`;
+
+      const abas = ['Programação Geral', ...nomes];
+      const paineis = [geral, ...nomes.map(d => `<div class="overflow-auto">${grade([d], dias)}</div>`)];
+
+      document.getElementById('abas').innerHTML = abas.map((nome, i) => `
+        <li class="nav-item">
+          <button class="nav-link text-nowrap ${i ? '' : 'active'}" data-bs-toggle="tab" data-bs-target="#p${i}">${nome}</button>
+        </li>`).join('');
+
+      document.getElementById('paineis').innerHTML = paineis.map((html, i) =>
+        `<div class="tab-pane ${i ? '' : 'show active'}" id="p${i}">${html}</div>`).join('');
+    }
+
+    function abrir(id) {
+      const c = CURSOS.find(x => x.id == id);
+      mTitulo.textContent = c.titulo;
+      mCorpo.innerHTML = `
+        <p><b>${c.tipo}</b> · ${c.modalidade}</p>
+        <p><b>Data:</b> ${c.data} · ${c.horario}<br>
+           <b>Local:</b> ${c.local}<br>
+           <b>Ministrante:</b> ${c.ministrante}<br>
+           <b>Área:</b> ${c.area_ti}<br>
+           <b>Público-alvo:</b> ${c.publico_alvo}<br>
+           <b>Vagas:</b> ${c.vagas}</p>
+        <p>${c.descricao}</p>`;
+      mRodape.innerHTML = c.link_inscricao
+        ? `<a href="${c.link_inscricao}" target="_blank" class="btn btn-primary">Inscrever-se</a>` : '';
+      new bootstrap.Modal(modal).show();
+    }
+
+    fetch('cursos.json').then(r => r.json()).then(render)
+      .catch(() => paineis.textContent = 'Erro ao carregar cursos.json');
+  </script>
 </body>
 </html>
