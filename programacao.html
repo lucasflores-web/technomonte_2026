@@ -16,7 +16,6 @@
     .grade .Minicurso { background: #d9c9f0; }
     .grade .Palestra  { background: #cfe2ff; }
     .grade .Workshop  { background: #ffe8b3; }
-    .grade.geral .evento { font-size: 9.5px; }
   </style>
 </head>
 <body>
@@ -74,7 +73,9 @@
 
     // "13:00 às 15:00" -> [780, 900]
     const minutos = h => h.match(/\d+:\d+/g).map(t => { const [a, b] = t.split(':'); return a * 60 + +b; });
-
+    
+    const AVISO = `<p class="text-center text-muted small">Clique em uma atividade para ver os detalhes e se inscrever.
+  <strong>Inscrições abertas a partir de 12/10.</strong></p>`;
     // separa "19/10 e 21/10" em ocorrências por dia e define a coluna de cada uma
     function porDia(cursos) {
       const dias = {};
@@ -102,7 +103,8 @@
       const larg = nomes.map(d => Math.max(...dias[d].map(e => e.col + 1)));
       const total = larg.reduce((a, b) => a + b, 0);
       const min = nomes.length > 1 ? 0 : 112;
-      let h = `<div class="grade ${geral ? 'geral' : ''}" style="grid-template-columns:56px repeat(${total},minmax(${min}px,1fr));grid-template-rows:26px repeat(${N},${geral ? 60 : 35}px)">
+
+      let h = `<div class="grade" style="grid-template-columns:65px repeat(${total},minmax(${min}px,1fr));grid-template-rows:26px repeat(${N},${geral ? 75 : 35}px)">
                  <div class="topo"></div>`;
 
       for (let s = 0; s < N; s++) {
@@ -134,10 +136,11 @@
           <a href="${PDF}" target="_blank" class="btn btn-primary">Abrir PDF da programação</a>
           <img src="${IMG}" alt="Programação geral" class="img-fluid d-lg-none mt-3">
         </div>
+        <div class="d-none d-lg-block">${AVISO}</div>
         <div class="d-none d-lg-block overflow-auto">${grade(nomes, dias, true)}</div>`;
 
       const abas = ['Programação Geral', ...nomes];
-      const paineis = [geral, ...nomes.map(d => `<div class="overflow-auto">${grade([d], dias)}</div>`)];
+      const paineis = [geral, ...nomes.map(d => `${AVISO}<div class="overflow-auto">${grade([d], dias)}</div>`)];
 
       document.getElementById('abas').innerHTML = abas.map((nome, i) => `
         <li class="nav-item">
