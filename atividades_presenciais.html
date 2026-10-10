@@ -90,10 +90,10 @@
             <a class="nav-link" href="programacao.html">Programação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="atividades_online.html">Atividades Online</a>
+            <a class="nav-link" href="atividades_online.html">Atividades Online (inscrições)</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="inscricoes.html">Inscrições</a>
+            <a class="nav-link active" href="atividades_presenciais.html">Atividades Presenciais (inscrições)</a>
           </li>
         </ul>
       </div>
@@ -103,7 +103,7 @@
   <div class="container py-5">
 
     <div class="d-flex justify-content-between align-items-center mb-4">
-      <h1>Atividades</h1>
+      <h1>Atividades Presenciais</h1>
     </div>
 
     <div class="table-responsive table-responsive-cards">
@@ -153,10 +153,9 @@
       <div class="col text-white">
         <p class="mb-0">
           Contato: <a href="mailto:ufu.technomonte@gmail.com"
-            class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
+            class="text-white"><strong><u>ufu.technomonte@gmail.com</u></strong></a>
         </p>
       </div>
-    </div>
     </div>
   </footer>
 
@@ -167,6 +166,7 @@
       .then(cursos => {
         const tabela = document.getElementById('tabela-cursos');
         cursos.forEach(curso => {
+          if (curso.modalidade === "Online") return;
           const linha = document.createElement('tr');
           linha.innerHTML = `
             <td data-label="Tipo">${curso.tipo}</td>
@@ -193,7 +193,7 @@
       .catch(erro => {
         console.error('Erro ao carregar cursos.json:', erro);
         document.getElementById('tabela-cursos').innerHTML =
-          '<tr><td colspan="10" class="text-center text-danger">Erro ao carregar a programação.</td></tr>';
+          '<tr><td colspan="9" class="text-center text-danger">Erro ao carregar a programação.</td></tr>';
       });
   </script>
 
