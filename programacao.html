@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,17 +8,55 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/logo_technomonte2026.png">
   <style>
-    .overflow-auto { scrollbar-width: none; }
-    .overflow-auto::-webkit-scrollbar { display: none; }
-    .grade { display: grid; border: 1px solid #333; border-right: 0; border-bottom: 0; font-size: 12px; }
-    .grade > div { background: #fff; padding: 2px 4px; border-right: 1px solid #333; border-bottom: 1px solid #333; }
-    .grade .topo { background: #050A2E; color: #fff; font-weight: bold; text-align: center; }
-    .grade .evento { cursor: pointer; overflow: hidden; }
-    .grade .Minicurso { background: #d9c9f0; }
-    .grade .Palestra  { background: #cfe2ff; }
-    .grade .Workshop  { background: #ffe8b3; }
+    .overflow-auto {
+      scrollbar-width: none;
+    }
+
+    .overflow-auto::-webkit-scrollbar {
+      display: none;
+    }
+
+    .grade {
+      display: grid;
+      border: 1px solid #333;
+      border-right: 0;
+      border-bottom: 0;
+      font-size: 12px;
+    }
+
+    .grade>div {
+      background: #fff;
+      padding: 2px 4px;
+      border-right: 1px solid #333;
+      border-bottom: 1px solid #333;
+    }
+
+    .grade .topo {
+      background: #050A2E;
+      color: #fff;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .grade .evento {
+      cursor: pointer;
+      overflow: hidden;
+    }
+
+    .grade .Minicurso {
+      background: #d9c9f0;
+    }
+
+    .grade .Palestra {
+      background: #cfe2ff;
+    }
+
+    .grade .Workshop {
+      background: #ffe8b3;
+    }
   </style>
 </head>
+
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(0, 4, 54);">
@@ -33,6 +72,7 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
           <li class="nav-item"><a class="nav-link active" href="programacao.html">Programação</a></li>
           <li class="nav-item"><a class="nav-link" href="inscricoes.html">Inscrições (a partir de 12/10)</a></li>
+          <li class="nav-item"><a class="nav-link active" href="atividades_online.html">Atividades Online</a></li>
         </ul>
       </div>
     </div>
@@ -44,34 +84,35 @@
     <div class="tab-content pt-3" id="paineis"></div>
   </div>
 
-  <footer class=" text-center py-4 "style="background-color: rgb(0, 4, 54);">
-      <div class="row justify-content-center align-items-center gap-4">
-        <div class="col-auto">
-          <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
-            <img src="img/ufu.png" alt="UFU" class="img-fluid" style="max-height: 120px;">
-          </a>
-        </div>
-        <div class="col-auto">
-          <a href="https://www.facom.ufu.br" target="_blank" rel="noopener noreferrer">
-            <img src="img/facom.png" alt="FACOM" class="img-fluid" style="max-height: 100px;">
-          </a>
-        </div>
-        <div class="col-auto">
-          <a href="https://petsimc.facom.ufu.br/" target="_blank" rel="noopener noreferrer">
-            <img src="img/petsimc.png" alt="PET" class="img-fluid" style="max-height: 140px;">
-          </a>
-        </div>
+  <footer class=" text-center py-4 " style="background-color: rgb(0, 4, 54);">
+    <div class="row justify-content-center align-items-center gap-4">
+      <div class="col-auto">
+        <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
+          <img src="img/ufu.png" alt="UFU" class="img-fluid" style="max-height: 120px;">
+        </a>
       </div>
+      <div class="col-auto">
+        <a href="https://www.facom.ufu.br" target="_blank" rel="noopener noreferrer">
+          <img src="img/facom.png" alt="FACOM" class="img-fluid" style="max-height: 100px;">
+        </a>
+      </div>
+      <div class="col-auto">
+        <a href="https://petsimc.facom.ufu.br/" target="_blank" rel="noopener noreferrer">
+          <img src="img/petsimc.png" alt="PET" class="img-fluid" style="max-height: 140px;">
+        </a>
+      </div>
+    </div>
 
-      <div class="row mt-4">
-        <div class="col text-white">
-          <p class="mb-0">
-            Contato: <a href="mailto:ufu.technomonte@gmail.com" class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
-          </p>
-        </div>
+    <div class="row mt-4">
+      <div class="col text-white">
+        <p class="mb-0">
+          Contato: <a href="mailto:ufu.technomonte@gmail.com"
+            class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
+        </p>
       </div>
-      </div>
-    </footer>
+    </div>
+    </div>
+  </footer>
 
   <div class="modal fade" id="modal" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
@@ -96,7 +137,7 @@
 
     // "13:00 às 15:00" -> [780, 900]
     const minutos = h => h.match(/\d+:\d+/g).map(t => { const [a, b] = t.split(':'); return a * 60 + +b; });
-    
+
     const AVISO = `<p class="text-center text-muted small">Clique em uma atividade para ver os detalhes e se inscrever.
   <strong>Inscrições abertas a partir de 12/10.</strong></p>`;
     // separa "19/10 e 21/10" em ocorrências por dia e define a coluna de cada uma
@@ -195,4 +236,5 @@
       .catch(() => paineis.textContent = 'Erro ao carregar cursos.json');
   </script>
 </body>
+
 </html>

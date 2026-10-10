@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
   <style>
     /* ===== Tabela responsiva: vira "cards" no celular ===== */
     @media (max-width: 767.98px) {
+
       .table-responsive-cards table,
       .table-responsive-cards thead,
       .table-responsive-cards tbody,
@@ -19,7 +21,8 @@
       }
 
       .table-responsive-cards thead {
-        display: none; /* esconde o cabeçalho da tabela no mobile */
+        display: none;
+        /* esconde o cabeçalho da tabela no mobile */
       }
 
       .table-responsive-cards tbody tr {
@@ -27,7 +30,7 @@
         border: 1px solid #dee2e6;
         border-radius: 0.5rem;
         overflow: hidden;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
       }
 
       .table-responsive-cards tbody td {
@@ -35,7 +38,8 @@
         padding: 0.6rem 0.9rem;
         border: none;
         border-bottom: 1px solid #f0f0f0;
-        white-space: normal; /* garante que o texto quebre a linha, sem cortar */
+        white-space: normal;
+        /* garante que o texto quebre a linha, sem cortar */
         word-break: break-word;
       }
 
@@ -65,6 +69,7 @@
     }
   </style>
 </head>
+
 <body>
 
   <!-- Cabeçalho rgb(5, 12, 94) -->
@@ -85,7 +90,10 @@
             <a class="nav-link" href="programacao.html">Programação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="inscricoes.html">Inscrições (a partir de 12/10)</a>
+            <a class="nav-link active" href="inscricoes.html">Inscrições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="atividades_online.html">Atividades Online</a>
           </li>
         </ul>
       </div>
@@ -112,7 +120,7 @@
             <!--<th>Descrição</th> -->
             <th>Público-Alvo</th>
             <th>Vagas</th>
-            <th class="text-center">Inscrições (a partir do 12/10)</th>
+            <th class="text-center">Inscrições</th>
           </tr>
         </thead>
         <tbody id="tabela-cursos">
@@ -122,34 +130,35 @@
     </div>
 
   </div>
-  <footer class=" text-center py-4 "style="background-color: rgb(0, 4, 54);">
-      <div class="row justify-content-center align-items-center gap-4">
-        <div class="col-auto">
-          <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
-            <img src="img/ufu.png" alt="UFU" class="img-fluid" style="max-height: 120px;">
-          </a>
-        </div>
-        <div class="col-auto">
-          <a href="https://www.facom.ufu.br" target="_blank" rel="noopener noreferrer">
-            <img src="img/facom.png" alt="FACOM" class="img-fluid" style="max-height: 100px;">
-          </a>
-        </div>
-        <div class="col-auto">
-          <a href="https://petsimc.facom.ufu.br/" target="_blank" rel="noopener noreferrer">
-            <img src="img/petsimc.png" alt="PET" class="img-fluid" style="max-height: 140px;">
-          </a>
-        </div>
+  <footer class=" text-center py-4 " style="background-color: rgb(0, 4, 54);">
+    <div class="row justify-content-center align-items-center gap-4">
+      <div class="col-auto">
+        <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
+          <img src="img/ufu.png" alt="UFU" class="img-fluid" style="max-height: 120px;">
+        </a>
       </div>
+      <div class="col-auto">
+        <a href="https://www.facom.ufu.br" target="_blank" rel="noopener noreferrer">
+          <img src="img/facom.png" alt="FACOM" class="img-fluid" style="max-height: 100px;">
+        </a>
+      </div>
+      <div class="col-auto">
+        <a href="https://petsimc.facom.ufu.br/" target="_blank" rel="noopener noreferrer">
+          <img src="img/petsimc.png" alt="PET" class="img-fluid" style="max-height: 140px;">
+        </a>
+      </div>
+    </div>
 
-      <div class="row mt-4">
-        <div class="col text-white">
-          <p class="mb-0">
-            Contato: <a href="mailto:ufu.technomonte@gmail.com" class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
-          </p>
-        </div>
+    <div class="row mt-4">
+      <div class="col text-white">
+        <p class="mb-0">
+          Contato: <a href="mailto:ufu.technomonte@gmail.com"
+            class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
+        </p>
       </div>
-      </div>
-    </footer>
+    </div>
+    </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
   <script>
@@ -174,8 +183,8 @@
             <td data-label="Vagas">${curso.vagas}</td>
             <td data-label="Inscrição" class="text-center">
               ${curso.link_inscricao
-                ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
-                : `<span class="badge text-bg-secondary">Entrada Livre</span>`}
+              ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
+              : `<span class="badge text-bg-secondary">Entrada Livre</span>`}
             </td>
           `;
           tabela.appendChild(linha);
@@ -189,4 +198,5 @@
   </script>
 
 </body>
+
 </html>

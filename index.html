@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,49 +8,51 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="img/logo_technomonte2026.png">
   <style>
-  .mapa-card {
-    position: relative;
-    width: 100%;
-    height: 375px;
-    border-radius: 8px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
-  }
+    .mapa-card {
+      position: relative;
+      width: 100%;
+      height: 375px;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .3);
+    }
 
-  .mapa-card iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
+    .mapa-card iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
 
-  .mapa-btn {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #fff;
-    color: #1a73e8;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    padding: 10px 14px;
-    border-radius: 4px;
-    text-decoration: none;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
-  }
+    .mapa-btn {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #fff;
+      color: #1a73e8;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+      padding: 10px 14px;
+      border-radius: 4px;
+      text-decoration: none;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .3);
+    }
 
-  .mapa-btn:hover {
-    background: #f1f3f4;
-    color: #174ea6;
-  }
+    .mapa-btn:hover {
+      background: #f1f3f4;
+      color: #174ea6;
+    }
 
-  .mapa-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;   /* preenche o card sem distorcer */
-  }
+    .mapa-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      /* preenche o card sem distorcer */
+    }
   </style>
 </head>
+
 <body>
 
   <!-- Cabeçalho -->
@@ -71,7 +74,10 @@
             <a class="nav-link" href="programacao.html">Programação</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="inscricoes.html">Inscrições (a partir de 12/10)</a>
+            <a class="nav-link" href="inscricoes.html">Inscrições</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="atividades_online.html">Atividades Online</a>
           </li>
         </ul>
       </div>
@@ -79,31 +85,31 @@
   </nav>
 
   <!--<div class="container-fluid p-0" style= "background-color: rgb(5, 12, 94);">-->
-  <div class="container-fluid p-0" style= "background-color: #080F5C;">
+  <div class="container-fluid p-0" style="background-color: #080F5C;">
     <!-- Retângulo preto para preencher depois -->
 
     <div class="w-100" style="height: 620px; background-color: rgb(0, 0, 0); position: relative; overflow: hidden;">
-    
+
       <!-- Canvas do Efeito Matrix -->
-    <canvas id="matrix-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none;"></canvas>
-    
-    <!-- Imagem e Conteúdo Centralizado -->
-    <div class="hero-content" style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px;">
-        <img src="img/logo_technomonte2026.png" 
-        alt="Technomonte 2026" 
-        class="hero-logo img-fluid" 
-        style="max-height: 330px; width: auto; height: auto; margin-bottom: 20px;">
+      <canvas id="matrix-canvas"
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none;"></canvas>
+
+      <!-- Imagem e Conteúdo Centralizado -->
+      <div class="hero-content"
+        style="position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 20px;">
+        <img src="img/logo_technomonte2026.png" alt="Technomonte 2026" class="hero-logo img-fluid"
+          style="max-height: 330px; width: auto; height: auto; margin-bottom: 20px;">
         <!-- Outros textos, se desejar manter -->
+      </div>
     </div>
-    </div> 
-    
+
     <!-- Título e ícones rgb(5, 12, 94) -->
     <div class="container text-center py-5">
       <a>
-        
+
         <h1 class="mb-5 display-1 fw-bold text-white"><i class="bi bi-calendar-week"></i> 19 a 22 de outubro 2026</h1>
       </a>
-      
+
       <div class="row justify-content-center">
         <div class="col-6 col-md-3 mb-4">
           <a href="programacao.html" class="text-decoration-none text-white">
@@ -127,17 +133,34 @@
         </h2>
 
         <div class="row justify-content-center">
-          <div class="col-12 text-white fs-5" style="text-align: justify; line-height: 1.7;">            <p>
-              A TechnoMonte é um evento vinculado ao curso de Bacharelado em Sistemas de Informação – Monte Carmelo, da Faculdade de Computação (FACOM) da Universidade Federal de Uberlândia (UFU), que tem como propósito promover a integração entre a universidade, a comunidade, o setor empresarial e os profissionais da área de Tecnologia da Informação (TI) da região de Monte Carmelo. O evento será estruturado como um espaço de compartilhamento de conhecimentos, experiências e oportunidades relacionadas à tecnologia, contemplando atividades como palestras, minicursos, workshops, mesas-redondas, demonstrações e outras ações de caráter formativo e interativo.
+          <div class="col-12 text-white fs-5" style="text-align: justify; line-height: 1.7;">
+            <p>
+              A TechnoMonte é um evento vinculado ao curso de Bacharelado em Sistemas de Informação – Monte Carmelo, da
+              Faculdade de Computação (FACOM) da Universidade Federal de Uberlândia (UFU), que tem como propósito
+              promover a integração entre a universidade, a comunidade, o setor empresarial e os profissionais da área
+              de Tecnologia da Informação (TI) da região de Monte Carmelo. O evento será estruturado como um espaço de
+              compartilhamento de conhecimentos, experiências e oportunidades relacionadas à tecnologia, contemplando
+              atividades como palestras, minicursos, workshops, mesas-redondas, demonstrações e outras ações de caráter
+              formativo e interativo.
             </p>
             <p>
-              As atividades abordarão temas atuais e relevantes das áreas de computação, sistemas de informação, desenvolvimento de software, inteligência artificial, dados, segurança, inovação e demais tecnologias emergentes. O público-alvo será composto por estudantes do curso de Bacharelado em Sistemas de Informação – Monte Carmelo (FACOM/UFU), estudantes do curso de Bacharelado em Ciência da Computação da UNIFUCAMP, além de membros da comunidade, empresas, profissionais da área de TI e entusiastas de tecnologia da região de Monte Carmelo.
+              As atividades abordarão temas atuais e relevantes das áreas de computação, sistemas de informação,
+              desenvolvimento de software, inteligência artificial, dados, segurança, inovação e demais tecnologias
+              emergentes. O público-alvo será composto por estudantes do curso de Bacharelado em Sistemas de Informação
+              – Monte Carmelo (FACOM/UFU), estudantes do curso de Bacharelado em Ciência da Computação da UNIFUCAMP,
+              além de membros da comunidade, empresas, profissionais da área de TI e entusiastas de tecnologia da região
+              de Monte Carmelo.
             </p>
             <p>
-              Por meio da realização da TechnoMonte, busca-se ampliar as oportunidades de formação complementar dos estudantes, aproximar a comunidade acadêmica das demandas e tendências do mercado de trabalho, estimular a troca de experiências entre diferentes atores do ecossistema tecnológico e fortalecer a presença da universidade como agente de transformação e desenvolvimento regional.
+              Por meio da realização da TechnoMonte, busca-se ampliar as oportunidades de formação complementar dos
+              estudantes, aproximar a comunidade acadêmica das demandas e tendências do mercado de trabalho, estimular a
+              troca de experiências entre diferentes atores do ecossistema tecnológico e fortalecer a presença da
+              universidade como agente de transformação e desenvolvimento regional.
             </p>
             <p>
-              Dessa forma, o evento contribui para a popularização do conhecimento tecnológico, a formação profissional, a inovação e a aproximação entre universidade, sociedade e mercado, promovendo um ambiente colaborativo de aprendizagem e networking.
+              Dessa forma, o evento contribui para a popularização do conhecimento tecnológico, a formação profissional,
+              a inovação e a aproximação entre universidade, sociedade e mercado, promovendo um ambiente colaborativo de
+              aprendizagem e networking.
             </p>
           </div>
         </div>
@@ -150,49 +173,45 @@
         <h2 class="text-center mb-4 display-4 fw-bold text-white">
           <i class="bi bi-geo-alt"></i> Localização
         </h2>
-      <!-- Informações -->
-      <div class="row justify-content-center mb-5">
-        <div class="col-12 col-lg-10 col-xl-8 text-white fs-5" style="line-height: 1.7;">
-          <p class="text-center mb-4">
-            O evento será realizado de forma presencial e online.
-          </p>
-          <ul>
-            <li class="mb-2">
-              As atividades presenciais ocorrerão no Campus Monte Carmelo - Araras - Universidade Federal de Uberlândia.
-            </li>
-            <li>
-              As transmissões online serão informadas no formulário de inscrição da atividade.
-            </li>
-          </ul>
+        <!-- Informações -->
+        <div class="row justify-content-center mb-5">
+          <div class="col-12 col-lg-10 col-xl-8 text-white fs-5" style="line-height: 1.7;">
+            <p class="text-center mb-4">
+              O evento será realizado de forma presencial e online.
+            </p>
+            <ul>
+              <li class="mb-2">
+                As atividades presenciais ocorrerão no Campus Monte Carmelo - Araras - Universidade Federal de
+                Uberlândia.
+              </li>
+              <li>
+                As transmissões online serão informadas no formulário de inscrição da atividade.
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
         <div class="row g-3">
-        <!-- Mapa -->
-        <div class="col-12 col-md-6">
-          <div class="mapa-card">
-            <iframe
-              src="https://www.google.com/maps?q=-18.7237558,-47.5242356&z=17&output=embed"
-              loading="lazy"
-              allowfullscreen
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Universidade Federal de Uberlândia - Campus Araras">
-            </iframe>
-            <a class="mapa-btn"
-              href="https://www.google.com/maps/place/Universidade+Federal+de+Uberl%C3%A2ndia+-+Campus+Araras/@-18.7242398,-47.5255523,17z/data=!4m6!3m5!1s0x94a588cc35c1f9bd:0x779ae6ef6f87ee61!8m2!3d-18.7237558!4d-47.5242356!16s%2Fg%2F11b7c32btp"
-              target="_blank" rel="noopener noreferrer">
-              Abrir no Maps <i class="bi bi-box-arrow-up-right"></i>
-            </a>
+          <!-- Mapa -->
+          <div class="col-12 col-md-6">
+            <div class="mapa-card">
+              <iframe src="https://www.google.com/maps?q=-18.7237558,-47.5242356&z=17&output=embed" loading="lazy"
+                allowfullscreen referrerpolicy="no-referrer-when-downgrade"
+                title="Universidade Federal de Uberlândia - Campus Araras">
+              </iframe>
+              <a class="mapa-btn"
+                href="https://www.google.com/maps/place/Universidade+Federal+de+Uberl%C3%A2ndia+-+Campus+Araras/@-18.7242398,-47.5255523,17z/data=!4m6!3m5!1s0x94a588cc35c1f9bd:0x779ae6ef6f87ee61!8m2!3d-18.7237558!4d-47.5242356!16s%2Fg%2F11b7c32btp"
+                target="_blank" rel="noopener noreferrer">
+                Abrir no Maps <i class="bi bi-box-arrow-up-right"></i>
+              </a>
+            </div>
           </div>
-        </div>
 
-        <!-- Imagem -->
-        <div class="col-12 col-md-6">
-          <div class="mapa-card">
-            <img src="img/UFU_ARARAS.png"
-                alt="Campus Araras - UFU Monte Carmelo"
-                class="mapa-img">
+          <!-- Imagem -->
+          <div class="col-12 col-md-6">
+            <div class="mapa-card">
+              <img src="img/UFU_ARARAS.png" alt="Campus Araras - UFU Monte Carmelo" class="mapa-img">
+            </div>
           </div>
-        </div>
 
         </div>
       </div>
@@ -200,7 +219,7 @@
 
 
     <!-- Rodapé com imagens -->
-  <footer class=" text-center py-4 "style="background-color: rgb(0, 4, 54);">
+    <footer class=" text-center py-4 " style="background-color: rgb(0, 4, 54);">
       <div class="row justify-content-center align-items-center gap-4">
         <div class="col-auto">
           <a href="https://www.ufu.br" target="_blank" rel="noopener noreferrer">
@@ -222,12 +241,13 @@
       <div class="row mt-4">
         <div class="col text-white">
           <p class="mb-0">
-            Contato: <a href="mailto:ufu.technomonte@gmail.com" class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
+            Contato: <a href="mailto:ufu.technomonte@gmail.com"
+              class="text-white"><strong><u>ufu.technomonte@gmail.com</a></u></strong>
           </p>
         </div>
       </div>
-      </div>
-    </footer>
+  </div>
+  </footer>
 
   </div>
 
@@ -236,4 +256,5 @@
 
   <script src="matrix.js"></script>
 </body>
+
 </html>

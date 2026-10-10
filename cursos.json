@@ -132,7 +132,8 @@
     "descricao": "SEM DESCRIÇÃO",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": ""
+    "link_inscricao": "",
+    "link_video_conferencia": ""
   },
   {
     "id": 11,
@@ -147,7 +148,8 @@
     "descricao": "Uma palestra descritiva sobre experiências de TI na área de sustenção de projetos tecnológicos a engenharia de Cloud em projetos de consultoria em TI",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/3oUfQ9mSgsv7487aA"
+    "link_inscricao": "https://forms.gle/3oUfQ9mSgsv7487aA",
+    "link_video_conferencia": ""
   },
   {
     "id": 12,
@@ -162,7 +164,8 @@
     "descricao": "O mercado de tecnologia vive uma grande expansão, e a área de dados está no centro dessa transformação. Esta palestra tem como objetivo desmistificar o ecossistema de dados para quem deseja ingressar ou crescer na área",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/ehecjSMtrH3AnTYL9"
+    "link_inscricao": "https://forms.gle/ehecjSMtrH3AnTYL9",
+    "link_video_conferencia": ""
   },
   {
     "id": 13,
@@ -267,7 +270,8 @@
     "descricao": "Um bate-papo sobre as oportunidades que o exterior pode proporcionar aos estudantes da área de T.I.. Lavínia compartilhará sua experiência de conquista de um emprego no exterior, contando sobre sua trajetória, os desafios de se adaptar a um novo país e os aprendizados adquiridos ao longo dessa experiência.",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/QGoTSaY1BUeGwRSn6"
+    "link_inscricao": "https://forms.gle/QGoTSaY1BUeGwRSn6",
+    "link_video_conferencia": ""
   },
   {
     "id": 20,
@@ -312,7 +316,8 @@
     "descricao": "Uma conversa com egressos do curso de Sistemas de Informação que seguiram para a pós-graduação. Os participantes compartilharão suas experiências no mestrado, falando sobre a decisão de continuar os estudos, o processo de ingresso, a rotina acadêmica, os desafios e as oportunidades que a pós-graduação pode proporcionar.",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/zmpFF6sxiZBWXk43A"
+    "link_inscricao": "https://forms.gle/zmpFF6sxiZBWXk43A",
+    "link_video_conferencia": ""
   },
   {
     "id": 23,
@@ -372,7 +377,8 @@
     "descricao": "Uma conversa sobre o mercado de trabalho na área de Tecnologia da Informação, abordando o cenário atual, as principais oportunidades e os desafios encontrados por profissionais em diferentes momentos da carreira. Os participantes compartilharão suas experiências e perspectivas sobre entrada no mercado, desenvolvimento profissional, habilidades valorizadas e caminhos para construir uma carreira em T.I.",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/LKPxnYwkXVKoFnSo7"
+    "link_inscricao": "https://forms.gle/LKPxnYwkXVKoFnSo7",
+    "link_video_conferencia": ""
   },
   {
     "id": 27,
@@ -447,7 +453,8 @@
     "descricao": "A palestra apresenta como a Realidade Estendida (XR), a Visão Computacional, a Computação Espacial e a Inteligência Artificial vêm convergindo para criar novas formas de interação com ambientes digitais. Serão abordados conceitos como realidade virtual, aumentada e mista, rastreamento espacial, reconhecimento de objetos e gestos, agentes inteligentes, interação multimodal e aplicações de IA generativa em ambientes imersivos. A apresentação também discutirá aplicações em áreas como engenharia, educação, indústria e simulação, além de desafios relacionados à privacidade, segurança e uso responsável dessas tecnologias",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/8bouVAipJF2TVwAW8"
+    "link_inscricao": "https://forms.gle/8bouVAipJF2TVwAW8",
+    "link_video_conferencia": ""
   },
   {
     "id": 31,
@@ -462,7 +469,8 @@
     "descricao": "A palestra apresentará como transformar ideias soltas em projetos estruturados e prontos para produção. Ao desconstruir a anatomia de um jogo, explorando suas mecânicas, narrativa, estética e tecnologia, o aluno aprende a documentar e comunicar sua visão criativa de forma profissional através do Game Design Document (GDD)",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "https://forms.gle/ToeAVJTr5FvdPNiP9"
+    "link_inscricao": "https://forms.gle/ToeAVJTr5FvdPNiP9",
+    "link_video_conferencia": ""
   },
   {
     "id": 32,
@@ -597,7 +605,8 @@
     "descricao": "Workshop prático e colaborativo sobre EventStorming, uma técnica de modelagem de domínio que permite representar e discutir processos de negócio de forma visual. Durante a atividade, os participantes aprenderão os conceitos básicos e construirão, em grupos, um modelo baseado em um cenário de aplicação de delivery, explorando eventos, comandos, atores, regras de negócio e situações excepcionais. A dinâmica será realizada de forma colaborativa, utilizando ferramentas digitais e salas virtuais.",
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "50",
-    "link_inscricao": "https://forms.gle/HuajiF8kYZi5gSR27"
+    "link_inscricao": "https://forms.gle/HuajiF8kYZi5gSR27",
+    "link_video_conferencia": ""
   },
   {
     "id": 41,
