@@ -96,7 +96,7 @@
                         <a class="nav-link" href="atividades_presenciais.html">Atividades Presenciais (inscrições)</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="atividades_presenciais.html">Confirmar Presença</a>
+                        <a class="nav-link" href="presenca.html">Confirmar Presença</a>
                     </li>
                 </ul>
             </div>
@@ -126,7 +126,7 @@
                         <th>Público-Alvo</th>
                         <th>Vagas</th>
                         <th class="text-center">Inscrições</th>
-                        <th class="text-center">Link Videoconferência</th>
+                        <th class="text-center">Videoconferência</th>
                     </tr>
                 </thead>
                 <tbody id="tabela-cursos">
@@ -192,9 +192,9 @@
                                 ? `<a href="${curso.link_inscricao}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
                                 : `<span class="badge text-bg-secondary">Entrada Livre</span>`}
                 </td>
-                <td data-label="Link Videoconferência" class="text-center">
+                <td data-label="Videoconferência" class="text-center">
                   ${curso.link_video_conferencia
-                                ? `<a href="${curso.link_video_conferencia}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
+                                ? `<a href="${curso.link_video_conferencia}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Acessar Link</a>`
                                 : `<span class="badge text-bg-secondary">Em breve</span>`}
                 </td>
               `;
