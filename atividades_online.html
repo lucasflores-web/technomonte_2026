@@ -116,12 +116,13 @@
                         <th>Data/Horário/Local</th>
                         <th>Ministrante/ Palestrante</th>
                         <th>Área de TI</th>
-                        <th>Modalidade</th>
+                        <!-- <th>Modalidade</th> -->
                         <!--<th>Descrição</th> -->
                         <th>Público-Alvo</th>
                         <th>Vagas</th>
                         <th class="text-center">Inscrições</th>
                         <th class="text-center">Link Videoconferência</th>
+                        <th class="text-center">Link Presença</th>
                     </tr>
                 </thead>
                 <tbody id="tabela-cursos">
@@ -180,7 +181,6 @@
                 </td>
                 <td data-label="Ministrante/ Palestrante">${curso.ministrante}</td>
                 <td data-label="Área de TI">${curso.area_ti}</td>
-                <td data-label="Modalidade">${curso.modalidade}</td>
                 <td data-label="Público-Alvo">${curso.publico_alvo}</td>
                 <td data-label="Vagas">${curso.vagas}</td>
                 <td data-label="Inscrição" class="text-center">
@@ -191,6 +191,11 @@
                 <td data-label="Link Videoconferência" class="text-center">
                   ${curso.link_video_conferencia
                                 ? `<a href="${curso.link_video_conferencia}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
+                                : `<span class="badge text-bg-secondary">Em breve</span>`}
+                </td>
+                <td data-label="Link Presença" class="text-center">
+                  ${curso.link_presenca
+                                ? `<a href="${curso.link_presenca}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Participou? Marque sua presença</a>`
                                 : `<span class="badge text-bg-secondary">Em breve</span>`}
                 </td>
               `;
