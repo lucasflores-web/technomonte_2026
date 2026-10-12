@@ -105,6 +105,8 @@
         <div class="d-flex justify-content-between align-items-center mb-4">
             <h1>Atividades Online</h1>
         </div>
+        <h6>Participou de alguma atividade e o ministrante/palestrante pediu para marcar sua presença?</h6>
+        <p>Preencha o seguinte formulário:</p>
 
         <div class="table-responsive table-responsive-cards">
             <table class="table table-striped table-bordered align-middle">
@@ -191,11 +193,6 @@
                 <td data-label="Link Videoconferência" class="text-center">
                   ${curso.link_video_conferencia
                                 ? `<a href="${curso.link_video_conferencia}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Inscreva-se</a>`
-                                : `<span class="badge text-bg-secondary">Em breve</span>`}
-                </td>
-                <td data-label="Link Presença" class="text-center">
-                  ${curso.link_presenca
-                                ? `<a href="${curso.link_presenca}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary text-nowrap">Participou? Marque sua presença</a>`
                                 : `<span class="badge text-bg-secondary">Em breve</span>`}
                 </td>
               `;

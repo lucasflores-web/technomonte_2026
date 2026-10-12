@@ -12,8 +12,7 @@
     "descricao": "A proposta consiste no ensino básico de como funciona a manipulação 3D por meio do software Blender, e a realização de uma modelagem como atividade prática.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "20",
-    "link_inscricao": "https://forms.gle/ChiMNwH4xGsHhMAbA",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/ChiMNwH4xGsHhMAbA"
   },
   {
     "id": 2,
@@ -28,8 +27,7 @@
     "descricao": "Primeiros passos com LaTeX no Overleaf.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/XuFWf7NCPdJpcRAv7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/XuFWf7NCPdJpcRAv7"
   },
   {
     "id": 3,
@@ -44,8 +42,7 @@
     "descricao": "A AWS Certified Cloud Practitioner (CLF-C02) é a porta de entrada mais reconhecida do mercado para quem quer trabalhar com computação em nuvem, e é acessível a quem nunca programou. O que trava a maioria dos estudantes, porém, não é o conteúdo técnico: na maioria das vezes é não saber como o exame funciona, ter receio do inglês e não conhecer as oportunidades que dão o exame gratuitamente ou com desconto, achando que precisa pagar do próprio bolso. Este minicurso trabalha as duas frentes. Na parte técnica, cobre os quatro domínios cobrados no exame: conceitos de nuvem, segurança e conformidade, tecnologias e serviços AWS, e cobrança, precificação e suporte. Na parte estratégica, apresenta o caminho completo até a aprovação: como montar um plano de estudos com material oficial gratuito, como conseguir o voucher do exame sem custo, como agendar na plataforma da Pearson VUE, o que esperar do dia da prova e quais técnicas usar para resolver as questões. Em sala, cada participante cria e verifica sua conta no AWS Builder Center, o que libera 12 meses de acesso ao AWS Skill Builder Premium e inicia o percurso rumo ao voucher gratuito de exame do programa Student Rewards, lançado pela AWS em agosto de 2026 para estudantes universitários. Ao final, cada participante sai com o ambiente de estudo configurado, um plano individual e uma data-alvo definida para a prova. O encerramento traz ainda um panorama da trilha de certificações AWS e uma introdução à AWS Certified AI Practitioner (AIF-C01), o passo seguinte natural para quem se interessa por inteligência artificial. Ministrado por profissional certificado em AWS Cloud Practitioner, AWS AI Practitioner, AWS Solutions Architect Associate e AWS Developer Associate, graduado no Programa AWS re/Start, AWS Technical Accredited Partner e mentor técnico voluntário na Escola da Nuvem.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados. Não exige conhecimento prévio de computação em nuvem nem de programação.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/tX2hvo6yFN9Axugk7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/tX2hvo6yFN9Axugk7"
   },
   {
     "id": 4,
@@ -60,8 +57,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Git, proporcionando aos participantes uma base sólida para versionamento de projetos e colaboração em equipe. Durante 2/3 horas, serão abordados conceitos essenciais como repositórios, commits, branches, GitHub, merge, Pull Requests e fluxo de trabalho colaborativo, sempre priorizando uma abordagem prática e aplicada ao desenvolvimento de software.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/hzgVVGbPTvHKkYYK9",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/hzgVVGbPTvHKkYYK9"
   },
   {
     "id": 5,
@@ -76,8 +72,7 @@
     "descricao": "O minicurso apresenta o Obsidian como uma ferramenta para organização de estudos, anotações e conhecimentos. Os participantes aprenderão os conceitos básicos da ferramenta e construirão, durante a atividade, uma estrutura simples para organizar disciplinas, conteúdos e anotações. Serão apresentados recursos como Markdown, links entre notas, backlinks, tags, propriedades e busca, sempre relacionados a situações práticas de estudo.",
     "publico_alvo": "Estudantes de cursos de graduação, especialmente alunos interessados em melhorar a organização dos estudos e das anotações. Não é necessário conhecimento prévio de Obsidian.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/Mu8R2TDZonceVJtMA",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/Mu8R2TDZonceVJtMA"
   },
   {
     "id": 6,
@@ -92,8 +87,7 @@
     "descricao": "Nesta roda de conversa, com a participação da diretora de relações internacionais e de estudantes de graduação e pós-graduação em mobilidade na UFU, vamos explorar experiências plurais de internacionalização. É um convite para pensar internacionalização para além de viagens a outros países, mas também uma vivência de interculturalidade e um atravessar de fronteiras mesmo que em casa. Serão apresentadas várias possibilidades de encontros internacionais que podem ser propiciados no ambiente universitário e no currículo acadêmico.",
     "publico_alvo": "Todo o público",
     "vagas": "80",
-    "link_inscricao": "",
-    "link_presenca": ""
+    "link_inscricao": ""
   },
   {
     "id": 7,
@@ -108,8 +102,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos relacionados ao desenvolvimento de APIs e aplicações Backend, proporcionando aos participantes uma visão prática de como sistemas se comunicam e processam dados. Ao longo do curso, serão abordados conceitos como HTTP, REST, JSON, métodos e status de requisições, além da demonstração de uma API utilizando Spring Boot, integração com banco de dados e testes utilizando o Postman.",
     "publico_alvo": "Todos os estudantes à partir do segundo período",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/Vct6rdHCVPcPC9936",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/Vct6rdHCVPcPC9936"
   },
   {
     "id": 9,
@@ -124,8 +117,7 @@
     "descricao": "A proposta do minicurso é apresentar aos estudantes como utilizar o LinkedIn de forma estratégica para construir uma presença profissional desde a universidade. Serão abordadas a criação e organização do perfil, divulgação de experiências e projetos, construção de networking e as oportunidades no mercado de trabalho.",
     "publico_alvo": "Todo o público",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/EkwcocjGhnjbUDtY6",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/EkwcocjGhnjbUDtY6"
   },
   {
     "id": 10,
@@ -135,14 +127,13 @@
     "titulo": "Além da Diversão: Jogos Sérios e o Poder de Transformar Realidades",
     "local": "Videoconferência no Teams",
     "ministrante": "Gabriel Fernandes Cyrino (UFU)",
-    "area_ti": "Desenvolvimento de Jogos Digitais, Engenharia de Software, Interação Humano-Computador (IHC), Tecnologias Assistivas, Engenharia Biomédica, Computação Aplicada à Saúde, Tecnologias Educacionais e Gamificação",
+    "area_ti": "Desenvolvimento de Jogos Digitais, Engenharia de Software, Interação Humano-Computador, Tecnologias Assistivas, Computação Aplicada à Saúde, Tecnologias Educacionais e Gamificação",
     "modalidade": "Online",
     "descricao": "Os jogos digitais vão muito além do entretenimento. Quando desenvolvidos com propósitos específicos, podem se tornar ferramentas poderosas para a educação, a saúde, a reabilitação, a inclusão e a transformação social. Esses são os chamados Jogos Sérios (Serious Games). Nesta palestra, exploraremos como a integração entre tecnologia, ciência e diferentes áreas do conhecimento permite criar experiências interativas capazes de enfrentar desafios reais. Serão apresentados os conceitos fundamentais dos Jogos Sérios, suas diferenças em relação aos jogos convencionais e à gamificação, além de suas aplicações em contextos educacionais, clínicos, terapêuticos e sociais. Com uma perspectiva interdisciplinar, a palestra abordará o potencial dos Jogos Sérios como ferramentas de apoio à atuação de profissionais da saúde, terapeutas ocupacionais, fisioterapeutas, psicólogos, engenheiros biomédicos, educadores e desenvolvedores de tecnologia. Serão discutidas possibilidades de aplicação na reabilitação física e cognitiva, no desenvolvimento de habilidades, na promoção da autonomia, na acessibilidade e no engajamento de pacientes em processos terapêuticos. Mais do que apresentar tecnologias, a palestra convida o público a refletir sobre como a colaboração entre profissionais de diferentes áreas pode transformar jogos em soluções inovadoras, acessíveis e centradas nas necessidades humanas, demonstrando que jogar também pode significar aprender, cuidar, reabilitar e transformar realidades",
-    "publico_alvo": "Todo o público, especialmente estudantes, pesquisadores e profissionais das áreas de Tecnologia da Informação, Desenvolvimento de Jogos, Engenharia Biomédica, Terapia Ocupacional, Fisioterapia, Psicologia, Medicina, Educação e demais áreas da saúde e tecnologias assistivas",
+    "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/z1MXsM4SgyBXkv2j9",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 11,
@@ -158,8 +149,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/3oUfQ9mSgsv7487aA",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 12,
@@ -175,8 +165,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/ehecjSMtrH3AnTYL9",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 13,
@@ -191,8 +180,7 @@
     "descricao": "O minicurso tem como objetivo ensinar palavras chaves e expressões da linguagem inglesa que estão presente na área tecnológica, cibernética e para se comunicarem com outros grupos.",
     "publico_alvo": "Estudantes de computação, principalmente 1º e 2º Períodos",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/s3cfabAT3yJN81c38",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/s3cfabAT3yJN81c38"
   },
   {
     "id": 14,
@@ -207,8 +195,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Docker, introduzindo os participantes ao uso de containers no desenvolvimento e execução de aplicações. Durante o curso, serão abordados conceitos como imagens, containers, Dockerfile, volumes, redes e Docker Compose, além da criação de um ambiente completo com aplicação e banco de dados.",
     "publico_alvo": "Estudantes de computação à partir do 2º Período",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/yg2b2oZk7yhwoXis5",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/yg2b2oZk7yhwoXis5"
   },
   {
     "id": 15,
@@ -223,8 +210,7 @@
     "descricao": "O minicurso oferece uma formação completa e descomplicada em impressão 3D (tecnologias FDM e Resina MSLA), focando na compreensão real do hardware peça por peça através de diagramas técnicos explodidos. Os participantes aprenderão a selecionar materiais adequados para cada aplicação mecânica ou externa, aplicar regras de design para manufatura, dominar softwares de fatiamento (Cura e Lychee Slicer) e acompanhar demonstrações práticas de calibração, biossegurança e resolução de problemas na bancada do laboratório.",
     "publico_alvo": "Estudantes de graduação e pós-graduação, entusiastas de robótica, prototipagem rápida e desenvolvimento de produtos físicos.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/Sk6KfjjFUhXKUJ3A8",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/Sk6KfjjFUhXKUJ3A8"
   },
   {
     "id": 16,
@@ -239,8 +225,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos relacionados ao desenvolvimento de APIs e aplicações Backend, proporcionando aos participantes uma visão prática de como sistemas se comunicam e processam dados. Ao longo do curso, serão abordados conceitos como HTTP, REST, JSON, métodos e status de requisições, além da demonstração de uma API utilizando Spring Boot, integração com banco de dados e testes utilizando o Postman.",
     "publico_alvo": "Todos os estudantes à partir do 2º Período",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/XMSWogvthuACGWPr5",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/XMSWogvthuACGWPr5"
   },
   {
     "id": 17,
@@ -255,8 +240,7 @@
     "descricao": "Muitos estudantes entram no mercado esperando encontrar equipes ágeis consolidadas, arquiteturas imaculadas e requisitos perfeitamente mapeados. A realidade da maioria das organizações, no entanto, é o extremo oposto: demandas urgentes, ausência de cultura tecnológica e a necessidade de construir soluções robustas onde nem sequer existe um setor de TI formal. Bruno Lacerra e Leonardo Cardoso vão abordar de forma transparente e crítica o contraste entre o ambiente acadêmico e o ecossistema corporativo real. O objetivo é desmistificar o início de carreira, apresentar as enormes oportunidades de crescimento para desenvolvedores pioneiros em empresas tradicionais e debater boas práticas para desenvolvedores de software e hardware durante seu período de estágio, que foram utilizadas para adaptação ao novo ecossistema do mercado de trabalho em empresas que não são específicas da área de TI, mas que possuem uma grande demanda em seus recursos/tecnologia e que são muito presentes na região. Fornecendo ferramentas conceituais e comportamentais para lidar com requisitos ambíguos, gestão de expectativas e entrega pragmática de software.",
     "publico_alvo": "Todos os estudantes à partir do 3º Período",
     "vagas": "80",
-    "link_inscricao": "",
-    "link_presenca": ""
+    "link_inscricao": ""
   },
   {
     "id": 18,
@@ -271,8 +255,7 @@
     "descricao": "Um bate-papo sobre mobilidade acadêmica internacional, compartilhando experiências, aprendizados e vivências no exterior. Caio e Maria Eduarda contarão sobre suas trajetórias durante o período de intercâmbio, abordando a rotina acadêmica, as oportunidades, as diferenças culturais e os principais desafios enfrentados ao estudar fora do país.",
     "publico_alvo": "Todo o público",
     "vagas": "80",
-    "link_inscricao": "",
-    "link_presenca": ""
+    "link_inscricao": ""
   },
   {
     "id": 19,
@@ -288,8 +271,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/QGoTSaY1BUeGwRSn6",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 20,
@@ -304,8 +286,7 @@
     "descricao": "Uma visão abrangente sobre as tecnologias que antecipam escolhas no ambiente digital. A palestra traça a evolução dos sistemas de recomendação, partindo das bases de filtragem colaborativa, fatoração matricial e modelos híbridos, além de abordar as métricas de avaliação desses sistemas. O roteiro avança para a fronteira da inteligência artificial, introduzindo os fundamentos do aprendizado por reforço e explorando desde o Q-learning até o Deep Reinforcement Learning aplicados à predição de comportamentos",
     "publico_alvo": "Todo o público",
     "vagas": "37",
-    "link_inscricao": "https://forms.gle/QEDBajCWB7Fs6gZG7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/QEDBajCWB7Fs6gZG7"
   },
   {
     "id": 21,
@@ -320,8 +301,7 @@
     "descricao": "Uma jornada pelo universo da proteção e ocultação da informação digital. Esta palestra explora as técnicas de criptografia simétrica, passando pelos cifradores clássicos e modernos, e desvenda a arte da esteganografia para esconder dados à vista de todos. O roteiro também se aprofunda na criptografia assimétrica, detalhando o funcionamento dos algoritmos, a aplicação de assinaturas digitais e o papel fundamental das funções de hash na segurança contemporânea",
     "publico_alvo": "Todo o público",
     "vagas": "37",
-    "link_inscricao": "https://forms.gle/nzyaFrGEHFNeMmsy8",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/nzyaFrGEHFNeMmsy8"
   },
   {
     "id": 22,
@@ -337,8 +317,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/zmpFF6sxiZBWXk43A",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 23,
@@ -353,8 +332,7 @@
     "descricao": "A proposta do minicurso é apresentar aos estudantes como utilizar o LinkedIn de forma estratégica para construir uma presença profissional desde a universidade. Serão abordadas a criação e organização do perfil, divulgação de experiências e projetos, construção de networking e as oportunidades no mercado de trabalho.",
     "publico_alvo": "Todo o público",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/PoAeaqFFq73opwns8",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/PoAeaqFFq73opwns8"
   },
   {
     "id": 24,
@@ -369,8 +347,7 @@
     "descricao": "O objetivo do mini-curso é o de introduzir o básico da linguagem python, abordando os principais tópicos como identação, importação de bibliotecas, e configuração de ambiente, tendo como meta fornecer uma base para se dar os primeiros passos de forma sólida.",
     "publico_alvo": "Todos os estudantes, com foco nos iniciantes do curso",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/2Trd6pVYeV6VJpZ86",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/2Trd6pVYeV6VJpZ86"
   },
   {
     "id": 25,
@@ -385,8 +362,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Docker, introduzindo os participantes ao uso de containers no desenvolvimento e execução de aplicações. Durante o curso, serão abordados conceitos como imagens, containers, Dockerfile, volumes, redes e Docker Compose, além da criação de um ambiente completo com aplicação e banco de dados.",
     "publico_alvo": "Estudantes de computação à partir do 2º Período",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/5u6DfrNmbUVuEjsi9",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/5u6DfrNmbUVuEjsi9"
   },
   {
     "id": 26,
@@ -402,8 +378,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/LKPxnYwkXVKoFnSo7",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 27,
@@ -418,8 +393,7 @@
     "descricao": "Ensinar o básico de modelagem 3D como começar a modelagem até o uso de modificadores. O objetivo é ensinar o participante a criar seus próprios modelos no Blender.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "12",
-    "link_inscricao": "https://forms.gle/9DLiymc2ZnX95xxk9",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/9DLiymc2ZnX95xxk9"
   },
   {
     "id": 28,
@@ -434,8 +408,7 @@
     "descricao": "Nesse minicurso ensinaremos manutenção básica de computadores, seus componentes, falhas de software e hardware mais comuns, como prevenir falhas (manutenção preventiva) e como arrumar falhas ocorridas.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/8FHCxu7kVkuyBxnF6",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/8FHCxu7kVkuyBxnF6"
   },
   {
     "id": 29,
@@ -450,8 +423,7 @@
     "descricao": "O minicurso oferece uma formação completa e descomplicada em impressão 3D (tecnologias FDM e Resina MSLA), focando na compreensão real do hardware peça por peça através de diagramas técnicos explodidos. Os participantes aprenderão a selecionar materiais adequados para cada aplicação mecânica ou externa, aplicar regras de design para manufatura, dominar softwares de fatiamento (Cura e Lychee Slicer) e acompanhar demonstrações práticas de calibração, biossegurança e resolução de problemas na bancada do laboratório.",
     "publico_alvo": "Estudantes de graduação e pós-graduação, entusiastas de robótica, prototipagem rápida e desenvolvimento de produtos físicos.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/wf2qRdnvHnUf6tcg9",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/wf2qRdnvHnUf6tcg9"
   },
   {
     "id": 30,
@@ -466,8 +438,7 @@
     "descricao": "A complexidade do mundo real raramente obedece a regras proporcionais simples. Esta palestra explora a essência dos problemas não lineares, apresentando desde a sua descrição conceitual até a construção de modelos matemáticos e a aplicação de métodos de resolução para lidar com cenários de alta complexidade",
     "publico_alvo": "Todo o público",
     "vagas": "37",
-    "link_inscricao": "https://forms.gle/RSrcXzWHithJRATR6",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/RSrcXzWHithJRATR6"
   },
   {
     "id": 31,
@@ -483,8 +454,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/8bouVAipJF2TVwAW8",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 31,
@@ -500,8 +470,7 @@
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
     "link_inscricao": "https://forms.gle/ToeAVJTr5FvdPNiP9",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 32,
@@ -516,8 +485,7 @@
     "descricao": "Mostra de Software: Jogos e Agentes de Inteligência Artificial feitos pelos alunos do curso de Sistemas de Informação da UFU - Monte Carmelo",
     "publico_alvo": "Todo o público",
     "vagas": "Ilimitado",
-    "link_inscricao": "",
-    "link_presenca": ""
+    "link_inscricao": ""
   },
   {
     "id": 33,
@@ -532,8 +500,7 @@
     "descricao": "O minicurso tem como proposta desenvolver habilidades de comunicação oral, expressão corporal e apresentação em público, explorando técnicas de oratória, linguagem corporal, uso da voz, organização do discurso e estratégias de persuasão e organização em geral. A metodologia será constituída  na combinação entre momentos teróricos, exemplos, interação e atividades práticas. Envolvendo recursos matérias e audiovisuais. Permitindo que os participantes coloquem em prática as técnicas apresentadas ao longo do curso.",
     "publico_alvo": "Todo o público",
     "vagas": "80",
-    "link_inscricao": "https://forms.gle/jY7cfXBFKKrFZk3o7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/jY7cfXBFKKrFZk3o7"
   },
   {
     "id": 34,
@@ -548,8 +515,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os principais conceitos e práticas do Git, proporcionando aos participantes uma base sólida para versionamento de projetos e colaboração em equipe. Durante 2/3 horas, serão abordados conceitos essenciais como repositórios, commits, branches, GitHub, merge, Pull Requests e fluxo de trabalho colaborativo, sempre priorizando uma abordagem prática e aplicada ao desenvolvimento de software.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/Pr4VNDL2aGBgdCgY7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/Pr4VNDL2aGBgdCgY7"
   },
   {
     "id": 35,
@@ -564,8 +530,7 @@
     "descricao": "O minicurso tem como objetivo apresentar o LeetCode como uma ferramenta para prática de programação e desenvolvimento do raciocínio lógico. Durante a atividade, os participantes conhecerão a plataforma, aprenderão a interpretar problemas de programação e serão apresentados a uma estratégia básica para analisar, desenvolver, testar e melhorar suas soluções. A atividade terá caráter prático, com resolução guiada de problemas adequados ao nível dos participantes.",
     "publico_alvo": "Estudantes de computação e especialmente desenvolvedores iniciantes com conjhecimentos básicos de programação.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/KWnokitFzt7q7vJ99",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/KWnokitFzt7q7vJ99"
   },
   {
     "id": 36,
@@ -580,8 +545,7 @@
     "descricao": "O minicurso tem como objetivo apresentar os conceitos essenciais para quem deseja iniciar no uso de sistemas Linux. Com uma abordagem introdutória e prática, serão trabalhados temas como utilização do terminal, navegação pelo sistema de arquivos, manipulação de arquivos e diretórios, permissões, usuários, processos, gerenciamento de pacotes e comandos básicos de rede. O foco será nas distribuições Debian e Ubuntu, buscando proporcionar aos participantes uma base para utilizar o Linux com maior autonomia em seus estudos e atividades.",
     "publico_alvo": "Estudantes de computação e especialmente desenvolvedores iniciantes com conjhecimentos básicos de programação.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/cHyo56HFykcDrLgGA",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/cHyo56HFykcDrLgGA"
   },
   {
     "id": 37,
@@ -596,8 +560,7 @@
     "descricao": "Nesse minicurso ensinaremos manutenção básica de computadores, seus componentes, falhas de software e hardware mais comuns, como prevenir falhas (manutenção preventiva) e como arrumar falhas ocorridas.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/MKWf9ixLMWoHjRPQ7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/MKWf9ixLMWoHjRPQ7"
   },
   {
     "id": 38,
@@ -612,8 +575,7 @@
     "descricao": "A AWS Certified Cloud Practitioner (CLF-C02) é a porta de entrada mais reconhecida do mercado para quem quer trabalhar com computação em nuvem, e é acessível a quem nunca programou. O que trava a maioria dos estudantes, porém, não é o conteúdo técnico: na maioria das vezes é não saber como o exame funciona, ter receio do inglês e não conhecer as oportunidades que dão o exame gratuitamente ou com desconto, achando que precisa pagar do próprio bolso. Este minicurso trabalha as duas frentes. Na parte técnica, cobre os quatro domínios cobrados no exame: conceitos de nuvem, segurança e conformidade, tecnologias e serviços AWS, e cobrança, precificação e suporte. Na parte estratégica, apresenta o caminho completo até a aprovação: como montar um plano de estudos com material oficial gratuito, como conseguir o voucher do exame sem custo, como agendar na plataforma da Pearson VUE, o que esperar do dia da prova e quais técnicas usar para resolver as questões. Em sala, cada participante cria e verifica sua conta no AWS Builder Center, o que libera 12 meses de acesso ao AWS Skill Builder Premium e inicia o percurso rumo ao voucher gratuito de exame do programa Student Rewards, lançado pela AWS em agosto de 2026 para estudantes universitários. Ao final, cada participante sai com o ambiente de estudo configurado, um plano individual e uma data-alvo definida para a prova. O encerramento traz ainda um panorama da trilha de certificações AWS e uma introdução à AWS Certified AI Practitioner (AIF-C01), o passo seguinte natural para quem se interessa por inteligência artificial. Ministrado por profissional certificado em AWS Cloud Practitioner, AWS AI Practitioner, AWS Solutions Architect Associate e AWS Developer Associate, graduado no Programa AWS re/Start, AWS Technical Accredited Partner e mentor técnico voluntário na Escola da Nuvem.",
     "publico_alvo": "Estudantes de computação e desenvolvedores iniciantes e avançados. Não exige conhecimento prévio de computação em nuvem nem de programação.",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/qQfvY6CtRnw3zj1b6",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/qQfvY6CtRnw3zj1b6"
   },
   {
     "id": 39,
@@ -628,8 +590,7 @@
     "descricao": "Esta proposta preliminar apresenta um workshop prático focado na extração e representação de modelos mentais para o desenvolvimento de software. A atividade adota uma metodologia ativa baseada em roleplay, na qual os participantes assumem o papel de consultores técnicos encarregados de investigar stakeholders — interpretados pelos instrutores — em um estudo de caso centrado em um aplicativo de delivery. Utilizando técnicas de entrevista contextual e a abordagem dos 5 Porquês (Root Cause Analysis), os participantes exercitam a escuta ativa para desvendar regras de negócio complexas e não explícitas, como decisões logísticas de agrupamento de pedidos, restrições financeiras em fretes promocionais e ajustes operacionais dinâmicos ligados a condições climáticas. A partir dos requisitos elicitados, os grupos aplicam o conceito de cognição externa trabalhando de forma colaborativa com papel A4 para mapear e desenhar os fluxos lógicos e entidades do sistema. Ao final, os modelos analógicos produzidos são confrontados com um diagrama formal do domínio, promovendo um debate crítico sobre a importância de alinhar a lógica do negócio e a visão do usuário antes da etapa de programação.",
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "80",
-    "link_inscricao": "https://forms.gle/YGsUjoBcr8d9fzpw7",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/YGsUjoBcr8d9fzpw7"
   },
   {
     "id": 40,
@@ -645,8 +606,7 @@
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "50",
     "link_inscricao": "https://forms.gle/HuajiF8kYZi5gSR27",
-    "link_video_conferencia": "",
-    "link_presenca": ""
+    "link_video_conferencia": ""
   },
   {
     "id": 41,
@@ -661,8 +621,7 @@
     "descricao": "O workshop abordará o controle de versões com Git pela linha de comando e a integração com o GitHub por meio do GitHub CLI. Serão apresentados os conceitos básicos, o registro e a consulta de alterações, a criação e integração de branches, a resolução de conflitos e a reversão de commits. Também serão demonstradas a autenticação, a criação e publicação de repositórios e a abertura de pull requests pelo terminal",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/9oCtxRs8qa1evS4c9",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/9oCtxRs8qa1evS4c9"
   },
   {
     "id": 42,
@@ -677,8 +636,7 @@
     "descricao": "O workshop tem como objetivo apresentar, de forma prática, o fluxo de colaboração em projetos utilizando GitHub. Serão abordadas desde a criação de uma demanda por meio de issues até a implementação de alterações, abertura de pull requests, revisão por outros colaboradores e integração das contribuições ao projeto. As operações locais serão realizadas utilizando GitHub Desktop e o gerenciamento das contribuições será feito pelo GitHub no navegador",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/P6ePWJ8guVhCL7Tg8",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/P6ePWJ8guVhCL7Tg8"
   },
   {
     "id": 43,
@@ -693,7 +651,6 @@
     "descricao": "Workshop prático sobre qualidade de software com foco em análise estática de código, utilizando o SonarQube como ferramenta central. Combina fundamentação teórica (normas e modelos de qualidade, boas práticas de codificação) com demonstração prática da ferramenta e uma dinâmica em grupos, na qual os participantes revisam manualmente um trecho de código com defeitos inseridos e depois comparam seus achados com o relatório gerado pelo SonarQube, evidenciando os limites da revisão manual frente à análise automatizada",
     "publico_alvo": "Especialmente, alunos da disciplina Testes e Modelagem de Software, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "35",
-    "link_inscricao": "https://forms.gle/Dpu1FpZCsHhcW5tAA",
-    "link_presenca": ""
+    "link_inscricao": "https://forms.gle/Dpu1FpZCsHhcW5tAA"
   }
 ]
