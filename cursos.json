@@ -320,21 +320,6 @@
     "link_video_conferencia": "https://teams.microsoft.com/meet/279127763028320?p=CCU9Gt8Pp47o7duFUO"
   },
   {
-    "id": 23,
-    "tipo": "Minicurso",
-    "data": "21/10",
-    "horario": "07:00 às 09:00",
-    "titulo": "Da Universidade ao Mercado: Aprenda a Usar o LinkedIn a Seu Favor - TURMA 2",
-    "local": "Sala 1B208",
-    "ministrante": "Ana Clara Alves Cota, Ana Clara Alves Reis Silva e Danielly Espanhol Ferreira Alves",
-    "area_ti": "Mercado de Trabalho",
-    "modalidade": "Presencial",
-    "descricao": "A proposta do minicurso é apresentar aos estudantes como utilizar o LinkedIn de forma estratégica para construir uma presença profissional desde a universidade. Serão abordadas a criação e organização do perfil, divulgação de experiências e projetos, construção de networking e as oportunidades no mercado de trabalho.",
-    "publico_alvo": "Todo o público",
-    "vagas": "35",
-    "link_inscricao": "https://forms.gle/PoAeaqFFq73opwns8"
-  },
-  {
     "id": 24,
     "tipo": "Minicurso",
     "data": "21/10",
@@ -581,7 +566,7 @@
     "id": 39,
     "tipo": "Workshop",
     "data": "22/10",
-    "horario": "09:00 às 11:00 ",
+    "horario": "10:00 às 12:00 ",
     "titulo": "Desvendando a Mente do Usuário: A Arte de Extrair e Representar Modelos Mentais",
     "local": "Sala 1B302",
     "ministrante": "Eduardo José de Oliveira, André Lemos Lazarini, Lucas Avila Pinheiro Souza e Arthur Lelles dos Santos",
@@ -606,7 +591,7 @@
     "publico_alvo": "Especialmente, alunos da disciplina Modelagem de Domínio, mas livre para todos os estudantes de computação e desenvolvedores iniciantes e avançados",
     "vagas": "50",
     "link_inscricao": "https://forms.gle/HuajiF8kYZi5gSR27",
-    "link_video_conferencia": "https://teams.microsoft.com/meet/2601866873228528?p=p8iKM8MHBCEArepOWs"
+    "link_video_conferencia": "https://teams.microsoft.com/l/channel/19%3AMS-_7aoMJihzGydge4LMdGHlxa69NO2LyUrHYkp77lk1%40thread.tacv2/General?groupId=540abf35-5342-43aa-a61e-5d7c220fb351&tenantId=cd5e6d23-cb99-4189-88ab-1a9021a0c451"
   },
   {
     "id": 41,
